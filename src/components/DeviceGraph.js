@@ -71,7 +71,24 @@ const DeviceGraph = () => {
                     type: 'force',
                     preventOverlap: true,
                     nodeStrength: -100,
-                    edgeStrength: 0.1
+                    edgeStrength: 0.5
+                }}
+                defaultNode={{
+                    type: 'circle',
+                    size: [30],
+                    style: {
+                        fill: 'rgba(64, 169, 255, 0.2)',
+                        stroke: '#40a9ff',
+                        lineWidth: 2
+                    }
+                }}
+                nodeStateStyles={{
+                    selected: {
+                        fill: '#40a9ff',
+                        stroke: '#40a9ff',
+                        lineWidth: 2,
+                        opacity: 1
+                    }
                 }}
                 fitView={true}
                 animate={false}

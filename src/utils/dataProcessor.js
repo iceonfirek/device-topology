@@ -7,7 +7,6 @@ export const processCSVData = async (csvFile) => {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const csvText = await response.text();
-        console.log('CSV Data loaded:', csvText);
         
         const { data } = Papa.parse(csvText, {
             header: true,
@@ -16,6 +15,16 @@ export const processCSVData = async (csvFile) => {
 
         const deviceMap = new Map();
         const connections = new Set();
+        const connectionCount = new Map();
+
+        // 第一遍循环：统计连接数
+        data.forEach(row => {
+            const { MAC, Remote_MAC, Port_Status } = row;
+            if (Port_Status === 'Up' && Remote_MAC) {
+                connectionCount.set(MAC, (connectionCount.get(MAC) || 0) + 1);
+                connectionCount.set(Remote_MAC, (connectionCount.get(Remote_MAC) || 0) + 1);
+            }
+        });
 
         // 第一遍循环：创建所有设备节点
         data.forEach(row => {
@@ -105,17 +114,48 @@ export const processCSVData = async (csvFile) => {
             }
         });
 
-        const nodes = Array.from(deviceMap.values()).map(device => ({
-            id: device.id,
-            style: {
-                fill: device.data.status === 'Ok' ? '#40a9ff' : '#ff4d4f'
-            },
-            data: device.data
-        }));
+        const nodes = Array.from(deviceMap.values()).map(device => {
+            const portCount = device.data.ports.length;  // 获取端口总数
+            const isMultiPorts = portCount >= 3;  // 判断端口数是否大于等于3
+            
+            let nodeStyle;
+            if (isMultiPorts) {
+                // 3个及以上端口的设备显示绿色
+                nodeStyle = {
+                    fill: 'rgba(82, 196, 26, 0.2)',
+                    stroke: '#52c41a'
+                };
+            } else if (device.data.nameOfStation === 'fo020-fo050') {
+                // fo020-fo050 显示蓝色
+                nodeStyle = {
+                    fill: 'rgba(64, 169, 255, 0.2)',
+                    stroke: '#40a9ff'
+                };
+            } else {
+                // 其他设备显示粉色
+                nodeStyle = {
+                    fill: 'rgba(214, 58, 255, 0.2)',
+                    stroke: '#d63aff'
+                };
+            }
 
-        const edges = Array.from(connections);
+            return {
+                id: device.id,
+                type: 'circle',
+                size: 30,
+                style: {
+                    ...nodeStyle,
+                    lineWidth: 2,
+                    opacity: 1
+                },
+                data: {
+                    ...device.data,
+                    portCount  // 添加端口数量到节点数据中
+                }
+            };
+        });
 
-        return { nodes, edges };
+        return { nodes, edges: Array.from(connections) };
     } catch (error) {
         console.error('处理CSV数据时出错:', error);
         return { nodes: [], edges: [] };
