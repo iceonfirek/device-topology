@@ -4,8 +4,9 @@ import { Card, Modal, Badge } from 'antd';
 import { processCSVData } from '../utils/dataProcessor';
 import { csvData } from '../data/deviceData';
 
-const DeviceGraph = () => {
+const DeviceGraph = ({ searchText }) => {
     const [graphData, setGraphData] = React.useState({ nodes: [], edges: [] });
+    const [filteredData, setFilteredData] = React.useState({ nodes: [], edges: [] });
     const [selectedDevice, setSelectedDevice] = React.useState(null);
     const [modalVisible, setModalVisible] = React.useState(false);
     const [tooltipInfo, setTooltipInfo] = React.useState(null);
@@ -62,6 +63,62 @@ const DeviceGraph = () => {
         }
     }, []);
 
+    // 添加搜索效果
+    React.useEffect(() => {
+        if (!graphData.nodes.length) return;
+        
+        if (!searchText) {
+            setFilteredData(graphData);
+            return;
+        }
+
+        const searchLower = searchText.toLowerCase();
+        const filteredNodes = graphData.nodes.filter(node => {
+            const { nameOfStation, ip, mac, type } = node.data;
+            return (
+                (nameOfStation && nameOfStation.toLowerCase().includes(searchLower)) ||
+                (ip && ip.toLowerCase().includes(searchLower)) ||
+                (mac && mac.toLowerCase().includes(searchLower)) ||
+                (type && type.toLowerCase().includes(searchLower))
+            );
+        });
+
+        const filteredNodeIds = new Set(filteredNodes.map(node => node.id));
+        const filteredEdges = graphData.edges.filter(edge => 
+            filteredNodeIds.has(edge.source) && filteredNodeIds.has(edge.target)
+        );
+
+        // 高亮搜索结果
+        const highlightedNodes = filteredNodes.map(node => ({
+            ...node,
+            style: {
+                ...node.style,
+                opacity: 1,
+                lineWidth: 3
+            }
+        }));
+
+        const otherNodes = graphData.nodes
+            .filter(node => !filteredNodeIds.has(node.id))
+            .map(node => ({
+                ...node,
+                style: {
+                    ...node.style,
+                    opacity: 0.2
+                }
+            }));
+
+        setFilteredData({
+            nodes: [...highlightedNodes, ...otherNodes],
+            edges: graphData.edges.map(edge => ({
+                ...edge,
+                style: {
+                    opacity: filteredEdges.some(e => e.id === edge.id) ? 1 : 0.1
+                }
+            }))
+        });
+    }, [searchText, graphData]);
+
     const layout = {
         type: 'force',
         preventOverlap: true,
@@ -109,7 +166,7 @@ const DeviceGraph = () => {
         <div style={{ width: '100%', height: '100vh', background: '#fff', position: 'relative' }}>
             <Graphin 
                 ref={graphRef}
-                data={graphData}
+                data={filteredData}
                 layout={layout}
                 defaultNode={{
                     type: 'circle',
