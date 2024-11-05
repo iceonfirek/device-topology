@@ -11,6 +11,7 @@ const DeviceGraph = ({ searchText }) => {
     const [modalVisible, setModalVisible] = React.useState(false);
     const [tooltipInfo, setTooltipInfo] = React.useState(null);
     const graphRef = React.useRef(null);
+    const [isStatic, setIsStatic] = React.useState(false);
 
     React.useEffect(() => {
         const loadData = async () => {
@@ -23,6 +24,17 @@ const DeviceGraph = ({ searchText }) => {
             }
         };
         loadData();
+    }, []);
+
+    React.useEffect(() => {
+        const timer = setTimeout(() => {
+            if (graphRef.current?.graph) {
+                // 10秒后切换到静态布局
+                setIsStatic(true);
+            }
+        }, 10000);
+
+        return () => clearTimeout(timer);
     }, []);
 
     React.useEffect(() => {
@@ -167,7 +179,11 @@ const DeviceGraph = ({ searchText }) => {
             <Graphin 
                 ref={graphRef}
                 data={filteredData}
-                layout={layout}
+                layout={isStatic ? {
+                    type: 'preset',
+                    animated: false,
+                    workerEnabled: false
+                } : layout}
                 defaultNode={{
                     type: 'circle',
                     size: [30],
