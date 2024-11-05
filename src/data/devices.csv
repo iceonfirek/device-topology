@@ -1,231 +1,426 @@
 ﻿NameOfStation,IpAddress,DeviceType,MAC,ManufacturerName,RunState,Port_ID,Port_Desc,Remote_Port_ID,Remote_Station,Remote_MAC,Port_Status
-,0.0.0.0,SCALANCE XC-200,38:4b:24:1c:42:ad,SIEMENS AG,Unknown,port-002,由伙伴 (fo030r02-rip) 报告,port-001,fo030r02-rip,00:30:11:5e:50:d3,Down
-,0.0.0.0,SCALANCE XC-200,38:4b:24:04:ab:00,SIEMENS AG,Unknown,port-003,由伙伴 (xd040sw01e00e) 报告,port-002,xd040sw01e00e,a8:74:1d:da:02:b7,Down
-,0.0.0.0,SCALANCE XC-200,20:87:56:d9:fb:d6,SIEMENS AG,Unknown,port-003,由伙伴 (xd040sw01e00e) 报告,port-003,xd040sw01e00e,a8:74:1d:da:02:b7,Down
-,0.0.0.0,SCALANCE XC-200,38:4b:24:1c:42:ad,SIEMENS AG,Unknown,port-003,由伙伴 (xd030sw01570f) 报告,port-002,xd030sw01570f,a8:74:1d:dc:7b:4b,Down
-,0.0.0.0,SCALANCE XC-200,20:87:56:d9:e3:3e,SIEMENS AG,Unknown,port-003,由伙伴 (xd040sw02e14e) 报告,port-003,xd040sw02e14e,a8:74:1d:dc:6e:8b,Down
-,0.0.0.0,SCALANCE XC-200,20:87:56:d9:fb:d6,SIEMENS AG,Unknown,port-004,由伙伴 (fo040r01-vs01) 报告,port-002,fo040r01-vs01,00:02:a2:8e:a3:5c,Down
-,0.0.0.0,SCALANCE XC-200,20:87:56:d9:e3:3e,SIEMENS AG,Unknown,port-004,由伙伴 (fo040r04-vs01) 报告,port-001,fo040r04-vs01,00:02:a2:8e:a3:3c,Down
-,0.0.0.0,SCALANCE XC-200,20:87:56:d9:fb:d6,SIEMENS AG,Unknown,port-005,由伙伴 (fo040r01-atc01) 报告,port-001,fo040r01-atc01,00:02:a2:71:95:0d,Down
-,0.0.0.0,SCALANCE XC-200,20:87:56:d9:e3:3e,SIEMENS AG,Unknown,port-005,由伙伴 (fo040r04-atc01) 报告,port-001,fo040r04-atc01,00:02:a2:69:61:bd,Down
-,0.0.0.0,SCALANCE XC-200,38:4b:24:04:ab:00,SIEMENS AG,Unknown,port-006,由伙伴 (fo030r01-gi01) 报告,port-001,fo030r01-gi01,00:02:a2:7c:75:01,Down
-,0.0.0.0,SCALANCE XC-200,20:87:56:d9:fb:d6,SIEMENS AG,Unknown,port-006,由伙伴 (fo040r01-rip) 报告,port-001,fo040r01-rip,00:30:11:5e:42:db,Down
-,0.0.0.0,SCALANCE XC-200,20:87:56:d9:e3:3e,SIEMENS AG,Unknown,port-006,由伙伴 (fo040r04-rip01) 报告,port-001,fo040r04-rip01,00:30:11:5e:7b:28,Down
-,0.0.0.0,SCALANCE XC-200,38:4b:24:04:ab:00,SIEMENS AG,Unknown,port-007,由伙伴 (fo030r01-rip) 报告,port-001,fo030r01-rip,00:30:11:5e:43:78,Down
-,0.0.0.0,SCALANCE XC-200,38:4b:24:1c:42:ad,SIEMENS AG,Unknown,port-007,由伙伴 (fo030r02-gi01) 报告,port-001,fo030r02-gi01,00:02:a2:7c:87:c9,Down
-fo020-050.hmi3.profinetxaschnittstellexb1b54a,10.167.148.31,TP1500 Comfort V2,ec:1c:5d:40:0c:ed,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-006,foplc01xbmcp01xbsw01e572,,Up
-fo020-050.hmi3.profinetxaschnittstellexb1b54a,10.167.148.31,TP1500 Comfort V2,ec:1c:5d:40:0c:ed,SIEMENS AG,Ok,port-001,I210_GEC Port 1,,,,Up
-fo020-050.hmi3.profinetxaschnittstellexb1b54a,10.167.148.31,TP1500 Comfort V2,ec:1c:5d:40:0c:ed,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
-fo020-050.hmi3.profinetxaschnittstellexb1b54a,10.167.148.32,TP1500 Comfort V2,ec:1c:5d:40:0c:77,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-007,foplc01xbmcp01xbsw01e572,,Up
-fo020-050.hmi3.profinetxaschnittstellexb1b54a,10.167.148.32,TP1500 Comfort V2,ec:1c:5d:40:0c:77,SIEMENS AG,Ok,port-001,I210_GEC Port 1,,,,Up
-fo020-050.hmi3.profinetxaschnittstellexb1b54a,10.167.148.32,TP1500 Comfort V2,ec:1c:5d:40:0c:77,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
-fo020-050.hmi3.profinetxaschnittstellexb1b54a,10.167.148.33,TP1500 Comfort V2,ec:1c:5d:3f:b0:4e,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-008,foplc01xbmcp01xbsw01e572,,Up
-fo020-050.hmi3.profinetxaschnittstellexb1b54a,10.167.148.33,TP1500 Comfort V2,ec:1c:5d:3f:b0:4e,SIEMENS AG,Ok,port-001,I210_GEC Port 1,,,,Up
-fo020-050.hmi3.profinetxaschnittstellexb1b54a,10.167.148.33,TP1500 Comfort V2,ec:1c:5d:3f:b0:4e,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
-fo020-fo050.profinetxbinterfacexbxx153a3,10.167.148.5,S7-1500,ec:1c:5d:3b:0d:8e,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1R",port-001,foplc01xbmcp01xbsw01e572,,Up
-fo020-fo050.profinetxbinterfacexbxx153a3,10.167.148.5,S7-1500,ec:1c:5d:3b:0d:8e,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X2 P1",,,,Down
-fo020-fo050.profinetxbinterfacexbxx153a3,10.167.148.5,S7-1500,ec:1c:5d:3b:0d:8e,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, W1 P1",,,,Down
-fo020-fo050.profinetxbinterfacexbxx153a3,10.167.148.5,S7-1500,ec:1c:5d:3b:0d:8e,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2R",,,,Down
-fo030r01-gi01,10.167.149.4,PNS,00:02:a2:7c:75:01,Hilscher Gesellschaft für Systemautomation mbH,Ok,port-001,Ethernet Switchport 1,port-006,,38:4b:24:04:ab:00,Up
-fo030r01-gi01,10.167.149.4,PNS,00:02:a2:7c:75:01,Hilscher Gesellschaft für Systemautomation mbH,Ok,port-002,Ethernet Switchport 2,,,,Down
-fo030r01-rip,10.167.149.2,GXPI-DIO16/E,00:30:11:5e:43:78,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-007,,38:4b:24:04:ab:00,Up
-fo030r01-rip,10.167.149.2,GXPI-DIO16/E,00:30:11:5e:43:78,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,,,,Down
-fo030r01-sys01,10.167.149.3,EIP-PROFINET IO,00:0d:8d:a7:24:41,"ProSoft Technology, Inc.",Ok,port-001,,port-004,111,38:4b:24:04:ab:04,Up
-fo030r01-sys02,10.167.149.5,EIP-PROFINET IO,00:0d:8d:a3:ce:fb,"ProSoft Technology, Inc.",Ok,port-001,,port-005,3,38:4b:24:04:ab:05,Up
-fo030r02-gi01,10.167.149.14,PNS,00:02:a2:7c:87:c9,Hilscher Gesellschaft für Systemautomation mbH,Ok,port-001,Ethernet Switchport 1,port-007,,38:4b:24:1c:42:ad,Up
-fo030r02-gi01,10.167.149.14,PNS,00:02:a2:7c:87:c9,Hilscher Gesellschaft für Systemautomation mbH,Ok,port-002,Ethernet Switchport 2,,,,Down
-fo030r02-rip,10.167.149.12,GXPI-DIO16/E,00:30:11:5e:50:d3,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-002,,38:4b:24:1c:42:ad,Up
-fo030r02-rip,10.167.149.12,GXPI-DIO16/E,00:30:11:5e:50:d3,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,,,,Down
-fo030r02-sys01,10.167.149.13,EIP-PROFINET IO,00:0d:8d:a7:18:43,"ProSoft Technology, Inc.",Ok,port-001,,port-004,2,38:4b:24:1c:42:b1,Up
-fo030r03-sys01,10.167.149.53,EL Device,00:01:05:78:07:26,Beckhoff Automation,Ok,port-001,"Ethernet Port 1, Slot 0 PortSubmodule 1, 100 Mbit, Full Duplex, AutoNegotation",,,,Down
-fo030r03-sys01,10.167.149.53,EL Device,00:01:05:78:07:26,Beckhoff Automation,Ok,port-002,"Ethernet Port 2, Slot 0 PortSubmodule 2, 100 Mbit, Full Duplex, AutoNegotation",port-004,scalance-xc-200-001,38:4b:24:d7:22:04,Up
-fo030r03-vs01,10.167.149.54,TPS-1,6c:a0:45:6c:5f:00,PHOENIX CONTACT Software GmbH,DuplicatedName,port-001,,port-007,scalance-xc-200-001,38:4b:24:d7:22:04,Up
-fo030r03-vs01,10.167.149.54,TPS-1,6c:a0:45:6c:5f:00,PHOENIX CONTACT Software GmbH,DuplicatedName,port-002,,,,,Down
-fo030r04-sys01,10.167.149.63,EL Device,00:01:05:71:1c:38,Beckhoff Automation,Ok,port-001,"Ethernet Port 1, Slot 0 PortSubmodule 1, 100 Mbit, Full Duplex, AutoNegotation",,,,Down
-fo030r04-sys01,10.167.149.63,EL Device,00:01:05:71:1c:38,Beckhoff Automation,Ok,port-002,"Ethernet Port 2, Slot 0 PortSubmodule 2, 100 Mbit, Full Duplex, AutoNegotation",port-004,scalance-xc-200-004,38:4b:24:d7:23:1e,Up
-fo030r04-vs01,10.167.149.64,TPS-1,6c:a0:45:6c:02:0a,PHOENIX CONTACT Software GmbH,DuplicatedName,port-001,,port-008,scalance-xc-200-004,38:4b:24:d7:23:1e,Up
-fo030r04-vs01,10.167.149.64,TPS-1,6c:a0:45:6c:02:0a,PHOENIX CONTACT Software GmbH,DuplicatedName,port-002,,,,,Down
-fo040r01-atc01,10.167.149.28,QC Master Module,00:02:a2:71:95:0d,ATI Industrial Automation,Ok,port-001,Ethernet Switchport 1,port-005,,20:87:56:d9:fb:d6,Up
-fo040r01-atc01,10.167.149.28,QC Master Module,00:02:a2:71:95:0d,ATI Industrial Automation,Ok,port-002,Ethernet Switchport 2,port-001,fo040r01-gr01,00:23:c6:4f:21:70,Up
-fo040r01-gr01,10.167.149.24,EX600,00:23:c6:4f:21:70,SMC Corp.,Ok,port-001,port-001,port-002,fo040r01-atc01,00:02:a2:71:95:0d,Up
-fo040r01-gr01,10.167.149.24,EX600,00:23:c6:4f:21:70,SMC Corp.,Ok,port-002,port-002,,,,Down
-fo040r01-pk01,10.167.149.22,GXPI-DIO16/E,00:30:11:5e:7b:22,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-002,fo040r01-rip,00:30:11:5e:42:db,Up
-fo040r01-pk01,10.167.149.22,GXPI-DIO16/E,00:30:11:5e:7b:22,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,port-001,fo040r01-pk02,00:19:31:42:cf:65,Up
-fo040r01-pk02,10.167.149.29,BNI PNT-302-105-Z015,00:19:31:42:cf:65,Balluff GmbH,Ok,port-001,Ethernet Port 1,port-002,fo040r01-pk01,00:30:11:5e:7b:22,Up
-fo040r01-pk02,10.167.149.29,BNI PNT-302-105-Z015,00:19:31:42:cf:65,Balluff GmbH,Ok,port-002,Ethernet Port 2,,,,Down
-fo040r01-rip,10.167.149.25,GXPI-DIO16/E,00:30:11:5e:42:db,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-006,,20:87:56:d9:fb:d6,Up
-fo040r01-rip,10.167.149.25,GXPI-DIO16/E,00:30:11:5e:42:db,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,port-001,fo040r01-pk01,00:30:11:5e:7b:22,Up
-fo040r01-vs01,10.167.149.23,PNS,00:02:a2:8e:a3:5c,Hilscher Gesellschaft für Systemautomation mbH,Ok,port-001,Ethernet Switchport 1,,,,Down
-fo040r01-vs01,10.167.149.23,PNS,00:02:a2:8e:a3:5c,Hilscher Gesellschaft für Systemautomation mbH,Ok,port-002,Ethernet Switchport 2,port-004,,20:87:56:d9:fb:d6,Up
-fo040r02-atc01,10.167.149.37,QC Master Module,00:02:a2:62:19:31,ATI Industrial Automation,Ok,port-001,Ethernet Switchport 1,port-005,scalance-xc-200-002,20:87:56:d9:e3:ae,Up
-fo040r02-atc01,10.167.149.37,QC Master Module,00:02:a2:62:19:31,ATI Industrial Automation,Ok,port-002,Ethernet Switchport 2,port-001,fo040r02-gr01,00:23:c6:4f:21:85,Up
-fo040r02-gr01,10.167.149.33,EX600,00:23:c6:4f:21:85,SMC Corp.,Ok,port-001,port-001,port-002,fo040r02-atc01,00:02:a2:62:19:31,Up
-fo040r02-gr01,10.167.149.33,EX600,00:23:c6:4f:21:85,SMC Corp.,Ok,port-002,port-002,,,,Down
-fo040r02-pk01,10.167.149.34,GXPI-DIO16/E,00:30:11:5e:45:30,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-002,fo040r02-rip01,00:30:11:5e:45:0e,Up
-fo040r02-pk01,10.167.149.34,GXPI-DIO16/E,00:30:11:5e:45:30,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,,,,Down
-fo040r02-rip01,10.167.149.32,GXPI-DIO16/E,00:30:11:5e:45:0e,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-006,scalance-xc-200-002,20:87:56:d9:e3:ae,Up
-fo040r02-rip01,10.167.149.32,GXPI-DIO16/E,00:30:11:5e:45:0e,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,port-001,fo040r02-pk01,00:30:11:5e:45:30,Up
-fo040r04-atc01,10.167.149.48,QC Master Module,00:02:a2:69:61:bd,ATI Industrial Automation,Ok,port-001,Ethernet Switchport 1,port-005,,20:87:56:d9:e3:3e,Up
-fo040r04-atc01,10.167.149.48,QC Master Module,00:02:a2:69:61:bd,ATI Industrial Automation,Ok,port-002,Ethernet Switchport 2,port-001,fo040r04-gr01,00:23:c6:4f:20:b6,Up
-fo040r04-gr01,10.167.149.44,EX600,00:23:c6:4f:20:b6,SMC Corp.,Ok,port-001,port-001,port-002,fo040r04-atc01,00:02:a2:69:61:bd,Up
-fo040r04-gr01,10.167.149.44,EX600,00:23:c6:4f:20:b6,SMC Corp.,Ok,port-002,port-002,,,,Down
-fo040r04-pk01,10.167.149.45,GXPI-DIO16/E,00:30:11:5e:79:d6,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-002,fo040r04-rip01,00:30:11:5e:7b:28,Up
-fo040r04-pk01,10.167.149.45,GXPI-DIO16/E,00:30:11:5e:79:d6,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,port-001,fo040r04-pk02,00:19:31:42:cb:c3,Up
-fo040r04-pk02,10.167.149.49,BNI PNT-302-105-Z015,00:19:31:42:cb:c3,Balluff GmbH,Ok,port-001,Ethernet Port 1,port-002,fo040r04-pk01,00:30:11:5e:79:d6,Up
-fo040r04-pk02,10.167.149.49,BNI PNT-302-105-Z015,00:19:31:42:cb:c3,Balluff GmbH,Ok,port-002,Ethernet Port 2,,,,Down
-fo040r04-rip01,10.167.149.42,GXPI-DIO16/E,00:30:11:5e:7b:28,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-006,,20:87:56:d9:e3:3e,Up
-fo040r04-rip01,10.167.149.42,GXPI-DIO16/E,00:30:11:5e:7b:28,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,port-001,fo040r04-pk01,00:30:11:5e:79:d6,Up
-fo040r04-vs01,10.167.149.43,PNS,00:02:a2:8e:a3:3c,Hilscher Gesellschaft für Systemautomation mbH,Ok,port-001,Ethernet Switchport 1,port-004,,20:87:56:d9:e3:3e,Up
-fo040r04-vs01,10.167.149.43,PNS,00:02:a2:8e:a3:3c,Hilscher Gesellschaft für Systemautomation mbH,Ok,port-002,Ethernet Switchport 2,,,,Down
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-001,Port 1,port-001,fo020-fo050.profinetxbinterfacexbxx153a3,ec:1c:5d:3b:0d:8e,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-002,Port 2,port-001,foplc01xbmcpxbet200sp07a0,ec:1c:5d:3d:d5:bc,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-003,Port 3,port-001,xd020hmixbet200spd915,ec:1c:5d:3f:63:d3,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-004,Port 4,port-002,xd030hmixbet200sp1815,ec:1c:5d:3f:3d:cd,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-005,Port 5,port-002,xd040hmixbet200spdf13,ec:1c:5d:3f:3d:b0,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-006,Port 6,port-001,fo020-050.hmi3.profinetxaschnittstellexb1b54a,ec:1c:5d:40:0c:ed,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-007,Port 7,port-001,fo020-050.hmi3.profinetxaschnittstellexb1b54a,ec:1c:5d:40:0c:77,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-008,Port 8,port-001,fo020-050.hmi3.profinetxaschnittstellexb1b54a,ec:1c:5d:3f:b0:4e,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-009,Port 9,port-001,foplc01xbpdp01-cm01aa6b,10:df:fc:07:0a:9e,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-010,Port 10,,,,Down
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-011,Port 11,,,,Down
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-012,Port 12,,,,Down
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-013,Port 13,port-001,mscnd21024x5,00:00:00:00:00:00,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-014,Port 14,,,,Down
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-015,Port 15,port-001,xd040sw01e00e,a8:74:1d:da:02:b7,Up
-foplc01xbmcp01xbsw01e572,10.167.148.6,FL SWITCH 2216,a8:74:1d:db:77:4e,Phoenix Contact GmbH & Co. KG,Ok,port-016,Port 16,port-008,xd050sw01310f,a8:74:1d:da:05:57,Up
-foplc01xbmcpxbet200sp07a0,10.167.148.51,ET200SP,ec:1c:5d:3d:d5:bc,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1",port-002,foplc01xbmcp01xbsw01e572,a8:74:1d:db:77:4e,Up
-foplc01xbmcpxbet200sp07a0,10.167.148.51,ET200SP,ec:1c:5d:3d:d5:bc,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2",,,,Down
-foplc01xbpdp01-cm01aa6b,10.167.148.152,PAC3220,10:df:fc:07:0a:9e,SIEMENS AG,Ok,port-001,"Siemens, SENTRON, Ethernet Port, X1 P1",port-009,foplc01xbmcp01xbsw01e572,a8:74:1d:db:77:4e,Up
-foplc01xbpdp01-cm01aa6b,10.167.148.152,PAC3220,10:df:fc:07:0a:9e,SIEMENS AG,Ok,port-002,"Siemens, SENTRON, Ethernet Port, X1 P2",,,,Down
-hip01,10.167.148.111,EX600,00:23:c6:4f:3b:d1,SMC Corp.,Ok,port-001,port-001,port-007,xd030sw01570f,a8:74:1d:dc:7b:4b,Up
-hip01,10.167.148.111,EX600,00:23:c6:4f:3b:d1,SMC Corp.,Ok,port-002,port-002,,,,Down
-plc01xbplc02532c,10.167.148.23,PNPN_IOC,ec:1c:5d:37:67:fa,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-001,xd040hmixbet200spdf13,ec:1c:5d:3f:3d:b0,Up
-plc01xbplc02532c,10.167.148.23,PNPN_IOC,ec:1c:5d:37:67:fa,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",,,,Down
-plc1xbems40f6,10.167.148.22,PNPN_IOC,ec:1c:5d:39:28:38,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X2 P1 R",port-001,xd030hmixbet200sp1815,ec:1c:5d:3f:3d:cd,Up
-plc1xbems40f6,10.167.148.22,PNPN_IOC,ec:1c:5d:39:28:38,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X2 P2 R",,,,Down
-plc1xbliftac8c,10.167.148.21,PNPN_IOC,ec:1c:5d:37:6a:a5,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-002,xd020hmixbet200spd915,ec:1c:5d:3f:63:d3,Up
-plc1xbliftac8c,10.167.148.21,PNPN_IOC,ec:1c:5d:37:6a:a5,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",,,,Down
-scalance-xc-200-001,0.0.0.0,SCALANCE XC-200,38:4b:24:d7:22:04,SIEMENS AG,Unknown,port-003,由伙伴 (xd040sw03218f) 报告,port-003,xd040sw03218f,a8:74:1d:e5:52:01,Down
-scalance-xc-200-001,0.0.0.0,SCALANCE XC-200,38:4b:24:d7:22:04,SIEMENS AG,Unknown,port-004,由伙伴 (fo030r03-sys01) 报告,port-002,fo030r03-sys01,00:01:05:78:07:26,Down
-scalance-xc-200-001,0.0.0.0,SCALANCE XC-200,38:4b:24:d7:22:04,SIEMENS AG,Unknown,port-007,由伙伴 (fo030r03-vs01) 报告,port-001,TPS-1                     1234567              1234567890123456     1 V 13  0  0,6c:a0:45:6c:5f:00,Down
-scalance-xc-200-002,0.0.0.0,SCALANCE XC-200,20:87:56:d9:e3:ae,SIEMENS AG,Unknown,port-003,由伙伴 (xd040sw02e14e) 报告,port-002,xd040sw02e14e,a8:74:1d:dc:6e:8b,Down
-scalance-xc-200-002,0.0.0.0,SCALANCE XC-200,20:87:56:d9:e3:ae,SIEMENS AG,Unknown,port-005,由伙伴 (fo040r02-atc01) 报告,port-001,fo040r02-atc01,00:02:a2:62:19:31,Down
-scalance-xc-200-002,0.0.0.0,SCALANCE XC-200,20:87:56:d9:e3:ae,SIEMENS AG,Unknown,port-006,由伙伴 (fo040r02-rip01) 报告,port-001,fo040r02-rip01,00:30:11:5e:45:0e,Down
-scalance-xc-200-004,0.0.0.0,SCALANCE XC-200,38:4b:24:d7:23:1e,SIEMENS AG,Unknown,port-003,由伙伴 (xd040sw03218f) 报告,port-002,xd040sw03218f,a8:74:1d:e5:52:01,Down
-scalance-xc-200-004,0.0.0.0,SCALANCE XC-200,38:4b:24:d7:23:1e,SIEMENS AG,Unknown,port-004,由伙伴 (fo030r04-sys01) 报告,port-002,fo030r04-sys01,00:01:05:71:1c:38,Down
-scalance-xc-200-004,0.0.0.0,SCALANCE XC-200,38:4b:24:d7:23:1e,SIEMENS AG,Unknown,port-008,由伙伴 (fo030r04-vs01) 报告,port-001,TPS-1                     1234567              1234567890123456     1 V 13  0  0,6c:a0:45:6c:02:0a,Down
-xd020bm017d2a,10.167.148.96,EUCHNER Modular B,00:1a:5c:07:19:a6,EUCHNER GmbH + Co.KG,Ok,port-001,TI AM335x Phy Port 1,port-004,xd030sw01570f,a8:74:1d:dc:7b:4f,Up
-xd020bm017d2a,10.167.148.96,EUCHNER Modular B,00:1a:5c:07:19:a6,EUCHNER GmbH + Co.KG,Ok,port-002,TI AM335x Phy Port 2,port-001,xd030bm01ac2b,00:1a:5c:06:fa:a8,Up
-xd020hmixbet200spd915,10.167.148.60,ET200SP,ec:1c:5d:3f:63:d3,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1",port-003,foplc01xbmcp01xbsw01e572,a8:74:1d:db:77:4e,Up
-xd020hmixbet200spd915,10.167.148.60,ET200SP,ec:1c:5d:3f:63:d3,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2",port-001,plc1xbliftac8c,ec:1c:5d:37:6a:a5,Up
-xd020rb01xbvfd011256,10.167.148.211,SINAMICS G120D,68:3e:02:35:fb:eb,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,xd020rb02xbvfd010716,68:3e:02:35:fc:24,Up
-xd020rb01xbvfd011256,10.167.148.211,SINAMICS G120D,68:3e:02:35:fb:eb,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,xd020rbxbbk013856,f8:50:1c:00:0f:ef,Up
-xd020rb02xbvfd010716,10.167.148.212,SINAMICS G120D,68:3e:02:35:fc:24,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-005,xd030sw01570f,a8:74:1d:dc:7b:4b,Up
-xd020rb02xbvfd010716,10.167.148.212,SINAMICS G120D,68:3e:02:35:fc:24,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,xd020rb01xbvfd011256,68:3e:02:35:fb:eb,Up
-xd020rbxbbk013856,10.167.148.81,GXPI-DIO16/E,f8:50:1c:00:0f:ef,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-002,xd020rb01xbvfd011256,68:3e:02:35:fb:eb,Up
-xd020rbxbbk013856,10.167.148.81,GXPI-DIO16/E,f8:50:1c:00:0f:ef,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,port-001,xd020rfid10a5,ec:1c:5d:32:59:d3,Up
-xd020rfid10a5,10.167.148.136,Ident Systems,ec:1c:5d:32:59:d3,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P1",port-002,xd020rbxbbk013856,f8:50:1c:00:0f:ef,Up
-xd020rfid10a5,10.167.148.136,Ident Systems,ec:1c:5d:32:59:d3,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P2",port-001,xd030rb01xbvfd029214,68:3e:02:36:17:42,Up
-xd030bm01ac2b,10.167.148.97,EUCHNER Modular B,00:1a:5c:06:fa:a7,EUCHNER GmbH + Co.KG,Ok,port-001,TI AM335x Phy Port 1,port-002,xd020bm017d2a,00:1a:5c:07:19:a8,Up
-xd030bm01ac2b,10.167.148.97,EUCHNER Modular B,00:1a:5c:06:fa:a7,EUCHNER GmbH + Co.KG,Ok,port-002,TI AM335x Phy Port 2,,,,Down
-xd030hmixbet200sp1815,10.167.148.61,ET200SP,ec:1c:5d:3f:3d:cd,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1",port-001,plc1xbems40f6,ec:1c:5d:39:28:38,Up
-xd030hmixbet200sp1815,10.167.148.61,ET200SP,ec:1c:5d:3f:3d:cd,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2",port-004,foplc01xbmcp01xbsw01e572,a8:74:1d:db:77:4e,Up
-xd030jb01xbet200spde43,10.167.148.68,ET200SP,ec:1c:5d:3f:53:a7,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1",port-002,xd040bm011b2a,00:1a:5c:06:f2:a6,Up
-xd030jb01xbet200spde43,10.167.148.68,ET200SP,ec:1c:5d:3f:53:a7,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2",,,,Down
-xd030jg01ce09,10.167.148.115,EX600,00:23:c6:4f:24:fa,SMC Corp.,Ok,port-001,port-001,port-006,xd030sw01570f,a8:74:1d:dc:7b:4b,Up
-xd030jg01ce09,10.167.148.115,EX600,00:23:c6:4f:24:fa,SMC Corp.,Ok,port-002,port-002,,,,Down
-xd030r017f58,10.167.148.161,KRC4-ProfiNet_5.0,00:30:59:1e:d8:db,KKUKA Deutschland GmbH,Ok,port-001,Port 1,,,,Up
-xd030r027e18,10.167.148.163,KRC4-ProfiNet_5.0,00:30:59:1f:b0:8e,KKUKA Deutschland GmbH,Ok,port-001,Port 1,,,,Up
-xd030r03bed9,10.167.148.171,KRC4-ProfiNet_5.0,00:30:59:2a:3a:a2,KKUKA Deutschland GmbH,Ok,port-001,Port 1,,,,Up
-xd030r047c98,10.167.148.173,KRC4-ProfiNet_5.0,00:30:59:2a:3a:d9,KKUKA Deutschland GmbH,Ok,port-001,Port 1,,,,Up
-xd030rb01xbvfd019354,10.167.148.213,SINAMICS G120D,68:3e:02:35:fb:fd,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,xd030rb01xbvfd029214,68:3e:02:36:17:42,Up
-xd030rb01xbvfd019354,10.167.148.213,SINAMICS G120D,68:3e:02:35:fb:fd,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,xd030rbxbbk01fd07,f8:50:1c:00:0c:b0,Up
-xd030rb01xbvfd029214,10.167.148.214,SINAMICS G120D,68:3e:02:36:17:42,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,xd020rfid10a5,ec:1c:5d:32:59:d3,Up
-xd030rb01xbvfd029214,10.167.148.214,SINAMICS G120D,68:3e:02:36:17:42,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,xd030rb01xbvfd019354,68:3e:02:35:fb:fd,Up
-xd030rbxbbk01fd07,10.167.148.82,GXPI-DIO16/E,f8:50:1c:00:0c:b0,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-002,xd030rb01xbvfd019354,68:3e:02:35:fb:fd,Up
-xd030rbxbbk01fd07,10.167.148.82,GXPI-DIO16/E,f8:50:1c:00:0c:b0,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,port-001,xd030rfidc1a4,ec:1c:5d:32:5a:9b,Up
-xd030rfidc1a4,10.167.148.137,Ident Systems,ec:1c:5d:32:5a:9b,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P1",port-002,xd030rbxbbk01fd07,f8:50:1c:00:0c:b0,Up
-xd030rfidc1a4,10.167.148.137,Ident Systems,ec:1c:5d:32:5a:9b,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P2",,,,Down
-xd030sw01570f,10.167.148.7,FL SWITCH 2608,a8:74:1d:dc:7b:4b,Phoenix Contact GmbH & Co. KG,Ok,port-001,Port 1,port-008,xd040sw03218f,a8:74:1d:e5:52:01,Up
-xd030sw01570f,10.167.148.7,FL SWITCH 2608,a8:74:1d:dc:7b:4b,Phoenix Contact GmbH & Co. KG,Ok,port-002,Port 2,port-003,,38:4b:24:1c:42:ad,Up
-xd030sw01570f,10.167.148.7,FL SWITCH 2608,a8:74:1d:dc:7b:4b,Phoenix Contact GmbH & Co. KG,Ok,port-003,Port 3,,,00:00:00:00:00:00,Up
-xd030sw01570f,10.167.148.7,FL SWITCH 2608,a8:74:1d:dc:7b:4b,Phoenix Contact GmbH & Co. KG,Ok,port-004,Port 4,port-001,xd020bm017d2a,00:1a:5c:07:19:a6,Up
-xd030sw01570f,10.167.148.7,FL SWITCH 2608,a8:74:1d:dc:7b:4b,Phoenix Contact GmbH & Co. KG,Ok,port-005,Port 5,port-001,xd020rb02xbvfd010716,68:3e:02:35:fc:24,Up
-xd030sw01570f,10.167.148.7,FL SWITCH 2608,a8:74:1d:dc:7b:4b,Phoenix Contact GmbH & Co. KG,Ok,port-006,Port 6,port-001,xd030jg01ce09,00:23:c6:4f:24:fa,Up
-xd030sw01570f,10.167.148.7,FL SWITCH 2608,a8:74:1d:dc:7b:4b,Phoenix Contact GmbH & Co. KG,Ok,port-007,Port 7,port-001,hip01,00:23:c6:4f:3b:d1,Up
-xd030sw01570f,10.167.148.7,FL SWITCH 2608,a8:74:1d:dc:7b:4b,Phoenix Contact GmbH & Co. KG,Ok,port-008,Port 8,port-001,xd040sw02e14e,a8:74:1d:dc:6e:8b,Up
-xd040bm011b2a,10.167.148.98,EUCHNER Modular B,00:1a:5c:06:f2:a6,EUCHNER GmbH + Co.KG,Ok,port-001,TI AM335x Phy Port 1,port-004,xd040sw01e00e,a8:74:1d:da:02:bb,Up
-xd040bm011b2a,10.167.148.98,EUCHNER Modular B,00:1a:5c:06:f2:a6,EUCHNER GmbH + Co.KG,Ok,port-002,TI AM335x Phy Port 2,port-001,xd030jb01xbet200spde43,ec:1c:5d:3f:53:a8,Up
-xd040bm021a6a,10.167.148.99,EUCHNER Modular B,00:1a:5c:07:08:a5,EUCHNER GmbH + Co.KG,Ok,port-001,TI AM335x Phy Port 1,port-004,xd040sw02e14e,a8:74:1d:dc:6e:8f,Up
-xd040bm021a6a,10.167.148.99,EUCHNER Modular B,00:1a:5c:07:08:a5,EUCHNER GmbH + Co.KG,Ok,port-002,TI AM335x Phy Port 2,port-002,xd040jb01xbet200spdc04,ec:1c:5d:3f:53:91,Up
-xd040hmixbet200spdf13,10.167.148.62,ET200SP,ec:1c:5d:3f:3d:b0,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1",port-001,plc01xbplc02532c,ec:1c:5d:37:67:fa,Up
-xd040hmixbet200spdf13,10.167.148.62,ET200SP,ec:1c:5d:3f:3d:b0,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2",port-005,foplc01xbmcp01xbsw01e572,a8:74:1d:db:77:4e,Up
-xd040jb01xbet200spdc04,10.167.148.69,ET200SP,ec:1c:5d:3f:53:8f,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1",,,,Down
-xd040jb01xbet200spdc04,10.167.148.69,ET200SP,ec:1c:5d:3f:53:8f,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2",port-002,xd040bm021a6a,00:1a:5c:07:08:a5,Up
-xd040jg017908,10.167.148.116,EX600,00:23:c6:4f:23:aa,SMC Corp.,Ok,port-001,port-001,port-002,xd050sw01310f,a8:74:1d:da:05:57,Up
-xd040jg017908,10.167.148.116,EX600,00:23:c6:4f:23:aa,SMC Corp.,Ok,port-002,port-002,port-001,xd040js02xbbk018218,00:30:11:5e:7b:2e,Up
-xd040jg027848,10.167.148.117,EX600,00:23:c6:4f:24:d9,SMC Corp.,Ok,port-001,port-001,port-006,xd040sw02e14e,a8:74:1d:dc:6e:8b,Up
-xd040jg027848,10.167.148.117,EX600,00:23:c6:4f:24:d9,SMC Corp.,Ok,port-002,port-002,,,,Down
-xd040js01xbbk01822b,10.167.148.85,GXPI-DIO16/E,00:30:11:5e:42:d8,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-006,xd040sw01e00e,a8:74:1d:da:02:b7,Up
-xd040js01xbbk01822b,10.167.148.85,GXPI-DIO16/E,00:30:11:5e:42:d8,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,,,,Down
-xd040js02xbbk018218,10.167.148.86,GXPI-DIO16/E,00:30:11:5e:7b:2e,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-002,xd040jg017908,00:23:c6:4f:23:aa,Up
-xd040js02xbbk018218,10.167.148.86,GXPI-DIO16/E,00:30:11:5e:7b:2e,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,,,,Down
-xd040r01bfed,10.167.148.165,KRC4-ProfiNet_5.0,00:30:59:1f:ac:12,KKUKA Deutschland GmbH,Ok,port-001,Port 1,,,,Up
-xd040r02bead,10.167.148.167,KRC4-ProfiNet_5.0,00:30:59:20:bf:29,KKUKA Deutschland GmbH,Ok,port-001,Port 1,,,,Up
-xd040r04bc2d,10.167.148.169,KRC4-ProfiNet_5.0,00:30:59:27:c5:37,KKUKA Deutschland GmbH,Ok,port-001,Port 1,,,,Up
-xd040rb01xbvfd01d45f,10.167.148.215,SINAMICS G120D,68:3e:02:35:fc:36,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-001,xd040rb02xbvfd02c05f,68:3e:02:36:17:5d,Up
-xd040rb01xbvfd01d45f,10.167.148.215,SINAMICS G120D,68:3e:02:35:fc:36,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,xd040rb03xbvfd010dde,68:3e:02:35:fb:a9,Up
-xd040rb02xbvfd01c11f,10.167.148.216,SINAMICS G120D,68:3e:02:35:fc:45,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,xd040rb02xbvfd02c05f,68:3e:02:36:17:5d,Up
-xd040rb02xbvfd01c11f,10.167.148.216,SINAMICS G120D,68:3e:02:35:fc:45,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,xd040rbxbbk0127b6,00:30:11:5e:45:48,Up
-xd040rb02xbvfd02c05f,10.167.148.217,SINAMICS G120D,68:3e:02:36:17:5d,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-001,xd040rb01xbvfd01d45f,68:3e:02:35:fc:36,Up
-xd040rb02xbvfd02c05f,10.167.148.217,SINAMICS G120D,68:3e:02:36:17:5d,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,xd040rb02xbvfd01c11f,68:3e:02:35:fc:45,Up
-xd040rb03xbvfd010dde,10.167.148.218,SINAMICS G120D,68:3e:02:35:fb:a9,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,xd040rb01xbvfd01d45f,68:3e:02:35:fc:36,Up
-xd040rb03xbvfd010dde,10.167.148.218,SINAMICS G120D,68:3e:02:35:fb:a9,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-005,xd040sw02e14e,a8:74:1d:dc:6e:8b,Up
-xd040rbxbbk0127b6,10.167.148.83,GXPI-DIO16/E,00:30:11:5e:45:48,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-002,xd040rb02xbvfd01c11f,68:3e:02:35:fc:45,Up
-xd040rbxbbk0127b6,10.167.148.83,GXPI-DIO16/E,00:30:11:5e:45:48,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,port-001,xd040rfid76a5,ec:1c:5d:32:5d:49,Up
-xd040rfid76a5,10.167.148.138,Ident Systems,ec:1c:5d:32:5d:49,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P1",port-002,xd040rbxbbk0127b6,00:30:11:5e:45:48,Up
-xd040rfid76a5,10.167.148.138,Ident Systems,ec:1c:5d:32:5d:49,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P2",,,,Down
-xd040sw01e00e,10.167.148.8,FL SWITCH 2608,a8:74:1d:da:02:b7,Phoenix Contact GmbH & Co. KG,Ok,port-001,Port 1,port-015,foplc01xbmcp01xbsw01e572,a8:74:1d:db:77:4e,Up
-xd040sw01e00e,10.167.148.8,FL SWITCH 2608,a8:74:1d:da:02:b7,Phoenix Contact GmbH & Co. KG,Ok,port-002,Port 2,port-003,,38:4b:24:04:ab:00,Up
-xd040sw01e00e,10.167.148.8,FL SWITCH 2608,a8:74:1d:da:02:b7,Phoenix Contact GmbH & Co. KG,Ok,port-003,Port 3,port-003,,20:87:56:d9:fb:d6,Up
-xd040sw01e00e,10.167.148.8,FL SWITCH 2608,a8:74:1d:da:02:b7,Phoenix Contact GmbH & Co. KG,Ok,port-004,Port 4,port-001,xd040bm011b2a,00:1a:5c:06:f2:a6,Up
-xd040sw01e00e,10.167.148.8,FL SWITCH 2608,a8:74:1d:da:02:b7,Phoenix Contact GmbH & Co. KG,Ok,port-005,Port 5,port-001,xd050jb01xbet200spdcc5,ec:1c:5d:3f:53:98,Up
-xd040sw01e00e,10.167.148.8,FL SWITCH 2608,a8:74:1d:da:02:b7,Phoenix Contact GmbH & Co. KG,Ok,port-006,Port 6,port-001,xd040js01xbbk01822b,00:30:11:5e:42:d8,Up
-xd040sw01e00e,10.167.148.8,FL SWITCH 2608,a8:74:1d:da:02:b7,Phoenix Contact GmbH & Co. KG,Ok,port-007,Port 7,,,,Down
-xd040sw01e00e,10.167.148.8,FL SWITCH 2608,a8:74:1d:da:02:b7,Phoenix Contact GmbH & Co. KG,Ok,port-008,Port 8,port-001,xd040sw03218f,a8:74:1d:e5:52:01,Up
-xd040sw02e14e,10.167.148.9,FL SWITCH 2608,a8:74:1d:dc:6e:8b,Phoenix Contact GmbH & Co. KG,Ok,port-001,Port 1,port-008,xd030sw01570f,a8:74:1d:dc:7b:4b,Up
-xd040sw02e14e,10.167.148.9,FL SWITCH 2608,a8:74:1d:dc:6e:8b,Phoenix Contact GmbH & Co. KG,Ok,port-002,Port 2,port-003,scalance-xc-200-002,20:87:56:d9:e3:ae,Up
-xd040sw02e14e,10.167.148.9,FL SWITCH 2608,a8:74:1d:dc:6e:8b,Phoenix Contact GmbH & Co. KG,Ok,port-003,Port 3,port-003,,20:87:56:d9:e3:3e,Up
-xd040sw02e14e,10.167.148.9,FL SWITCH 2608,a8:74:1d:dc:6e:8b,Phoenix Contact GmbH & Co. KG,Ok,port-004,Port 4,port-001,xd040bm021a6a,00:1a:5c:07:08:a5,Up
-xd040sw02e14e,10.167.148.9,FL SWITCH 2608,a8:74:1d:dc:6e:8b,Phoenix Contact GmbH & Co. KG,Ok,port-005,Port 5,port-002,xd040rb03xbvfd010dde,68:3e:02:35:fb:a9,Up
-xd040sw02e14e,10.167.148.9,FL SWITCH 2608,a8:74:1d:dc:6e:8b,Phoenix Contact GmbH & Co. KG,Ok,port-006,Port 6,port-001,xd040jg027848,00:23:c6:4f:24:d9,Up
-xd040sw02e14e,10.167.148.9,FL SWITCH 2608,a8:74:1d:dc:6e:8b,Phoenix Contact GmbH & Co. KG,Ok,port-007,Port 7,port-001,xd040xbisv5ca1,00:02:a2:96:d2:3c,Up
-xd040sw02e14e,10.167.148.9,FL SWITCH 2608,a8:74:1d:dc:6e:8b,Phoenix Contact GmbH & Co. KG,Ok,port-008,Port 8,port-001,xd050sw01310f,a8:74:1d:da:05:57,Up
-xd040sw03218f,10.167.148.157,FL SWITCH 2608,a8:74:1d:e5:52:01,Phoenix Contact GmbH & Co. KG,Ok,port-001,Port 1,port-008,xd040sw01e00e,a8:74:1d:da:02:b7,Up
-xd040sw03218f,10.167.148.157,FL SWITCH 2608,a8:74:1d:e5:52:01,Phoenix Contact GmbH & Co. KG,Ok,port-002,Port 2,port-003,scalance-xc-200-004,38:4b:24:d7:23:1e,Up
-xd040sw03218f,10.167.148.157,FL SWITCH 2608,a8:74:1d:e5:52:01,Phoenix Contact GmbH & Co. KG,Ok,port-003,Port 3,port-003,scalance-xc-200-001,38:4b:24:d7:22:04,Up
-xd040sw03218f,10.167.148.157,FL SWITCH 2608,a8:74:1d:e5:52:01,Phoenix Contact GmbH & Co. KG,Ok,port-004,Port 4,,,,Down
-xd040sw03218f,10.167.148.157,FL SWITCH 2608,a8:74:1d:e5:52:01,Phoenix Contact GmbH & Co. KG,Ok,port-005,Port 5,,,,Down
-xd040sw03218f,10.167.148.157,FL SWITCH 2608,a8:74:1d:e5:52:01,Phoenix Contact GmbH & Co. KG,Ok,port-006,Port 6,,,,Down
-xd040sw03218f,10.167.148.157,FL SWITCH 2608,a8:74:1d:e5:52:01,Phoenix Contact GmbH & Co. KG,Ok,port-007,Port 7,,,,Down
-xd040sw03218f,10.167.148.157,FL SWITCH 2608,a8:74:1d:e5:52:01,Phoenix Contact GmbH & Co. KG,Ok,port-008,Port 8,port-001,xd030sw01570f,a8:74:1d:dc:7b:4b,Up
-xd040xbisv5ca1,10.167.148.156,PNS,00:02:a2:96:d2:3c,Hilscher Gesellschaft für Systemautomation mbH,Ok,port-001,Ethernet Switchport 1,port-007,xd040sw02e14e,a8:74:1d:dc:6e:8b,Up
-xd040xbisv5ca1,10.167.148.156,PNS,00:02:a2:96:d2:3c,Hilscher Gesellschaft für Systemautomation mbH,Ok,port-002,Ethernet Switchport 2,,,,Down
-xd050jb01xbet200spdcc5,10.167.148.70,ET200SP,ec:1c:5d:3f:53:98,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1",port-005,xd040sw01e00e,a8:74:1d:da:02:b7,Up
-xd050jb01xbet200spdcc5,10.167.148.70,ET200SP,ec:1c:5d:3f:53:98,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2",,,,Down
-xd050jb02xbet200spd335,10.167.148.71,ET200SP,ec:1c:5d:3f:64:4c,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1",port-003,xd050sw01310f,a8:74:1d:da:05:57,Up
-xd050jb02xbet200spd335,10.167.148.71,ET200SP,ec:1c:5d:3f:64:4c,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2",,,,Down
-xd050rb01xbvfd01555d,10.167.148.219,SINAMICS G120D,68:3e:02:35:fb:b2,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-004,xd050sw01310f,a8:74:1d:da:05:57,Up
-xd050rb01xbvfd01555d,10.167.148.219,SINAMICS G120D,68:3e:02:35:fb:b2,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,xd050rbxbbk01e2e7,f8:50:1c:00:11:ba,Up
-xd050rbxbbk01e2e7,10.167.148.84,GXPI-DIO16/E,f8:50:1c:00:11:ba,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-001,port-001,port-002,xd050rb01xbvfd01555d,68:3e:02:35:fb:b2,Up
-xd050rbxbbk01e2e7,10.167.148.84,GXPI-DIO16/E,f8:50:1c:00:11:ba,"Tianjin Geneuo Technology Co.,Ltd.",Ok,port-002,port-002,port-001,xd050rfida7a4,ec:1c:5d:32:59:8c,Up
-xd050rfida7a4,10.167.148.139,Ident Systems,ec:1c:5d:32:59:8c,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P1",port-002,xd050rbxbbk01e2e7,f8:50:1c:00:11:ba,Up
-xd050rfida7a4,10.167.148.139,Ident Systems,ec:1c:5d:32:59:8c,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P2",,,,Down
-xd050sw01310f,10.167.148.10,FL SWITCH 2608,a8:74:1d:da:05:57,Phoenix Contact GmbH & Co. KG,Ok,port-001,Port 1,port-008,xd040sw02e14e,a8:74:1d:dc:6e:8b,Up
-xd050sw01310f,10.167.148.10,FL SWITCH 2608,a8:74:1d:da:05:57,Phoenix Contact GmbH & Co. KG,Ok,port-002,Port 2,port-001,xd040jg017908,00:23:c6:4f:23:aa,Up
-xd050sw01310f,10.167.148.10,FL SWITCH 2608,a8:74:1d:da:05:57,Phoenix Contact GmbH & Co. KG,Ok,port-003,Port 3,port-001,xd050jb02xbet200spd335,ec:1c:5d:3f:64:4c,Up
-xd050sw01310f,10.167.148.10,FL SWITCH 2608,a8:74:1d:da:05:57,Phoenix Contact GmbH & Co. KG,Ok,port-004,Port 4,port-001,xd050rb01xbvfd01555d,68:3e:02:35:fb:b2,Up
-xd050sw01310f,10.167.148.10,FL SWITCH 2608,a8:74:1d:da:05:57,Phoenix Contact GmbH & Co. KG,Ok,port-005,Port 5,,,,Down
-xd050sw01310f,10.167.148.10,FL SWITCH 2608,a8:74:1d:da:05:57,Phoenix Contact GmbH & Co. KG,Ok,port-006,Port 6,,,,Down
-xd050sw01310f,10.167.148.10,FL SWITCH 2608,a8:74:1d:da:05:57,Phoenix Contact GmbH & Co. KG,Ok,port-007,Port 7,,,,Down
-xd050sw01310f,10.167.148.10,FL SWITCH 2608,a8:74:1d:da:05:57,Phoenix Contact GmbH & Co. KG,Ok,port-008,Port 8,port-016,foplc01xbmcp01xbsw01e572,a8:74:1d:db:77:4e,Up
+,192.168.1.100,SCALANCE XB-200,38:4b:24:21:1c:30,SIEMENS AG,Unknown,port-001,"Siemens, SIMATIC NET, Ethernet Port, X1 P1",,,,Down
+,192.168.1.100,SCALANCE XB-200,38:4b:24:21:1c:30,SIEMENS AG,Unknown,port-002,"Siemens, SIMATIC NET, Ethernet Port, X1 P2",port-001,rcp06xbim0138c8,ec:1c:5d:c9:a7:97,Up
+,192.168.1.100,SCALANCE XB-200,38:4b:24:21:1c:30,SIEMENS AG,Unknown,port-003,"Siemens, SIMATIC NET, Ethernet Port, X1 P3",port-001,op05xbim017e9a,ec:1c:5d:14:8d:d3,Up
+,192.168.1.100,SCALANCE XB-200,38:4b:24:21:1c:30,SIEMENS AG,Unknown,port-004,"Siemens, SIMATIC NET, Ethernet Port, X1 P4",port-002,hmi11xbim0149cc,ec:1c:5d:4b:cc:4a,Up
+,192.168.1.100,SCALANCE XB-200,38:4b:24:21:1c:30,SIEMENS AG,Unknown,port-005,"Siemens, SIMATIC NET, Ethernet Port, X1 P5",,,,Down
+,192.168.1.100,SCALANCE XB-200,38:4b:24:21:1c:30,SIEMENS AG,Unknown,port-006,"Siemens, SIMATIC NET, Ethernet Port, X1 P6",,,,Down
+,192.168.1.100,SCALANCE XB-200,38:4b:24:21:1c:30,SIEMENS AG,Unknown,port-007,"Siemens, SIMATIC NET, Ethernet Port, X1 P7",port-001,rbxb0580xbinv2150d21b,e8:ef:22:28:23:60,Up
+,192.168.1.100,SCALANCE XB-200,38:4b:24:21:1c:30,SIEMENS AG,Unknown,port-008,"Siemens, SIMATIC NET, Ethernet Port, X1 P8",port-001,rbxb0565xbinv2000ba6d,e8:ef:22:27:f2:32,Up
+csb01xbsw012e1d,10.168.24.12,Hirschmann Railswitch,94:ae:e3:4b:4c:78,Hirschmann Automation and Control GmbH,Ok,port-001,,port-001,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+csb01xbsw012e1d,10.168.24.12,Hirschmann Railswitch,94:ae:e3:4b:4c:78,Hirschmann Automation and Control GmbH,Ok,port-002,,port-002,jb04xbim010e4e,ec:1c:5d:13:29:6e,Up
+csb01xbsw012e1d,10.168.24.12,Hirschmann Railswitch,94:ae:e3:4b:4c:78,Hirschmann Automation and Control GmbH,Ok,port-003,,port-001,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+csb01xbsw012e1d,10.168.24.12,Hirschmann Railswitch,94:ae:e3:4b:4c:78,Hirschmann Automation and Control GmbH,Ok,port-004,,,,,Down
+csb01xbsw012e1d,10.168.24.12,Hirschmann Railswitch,94:ae:e3:4b:4c:78,Hirschmann Automation and Control GmbH,Ok,port-005,,port-002,op03xbim017efc,ec:1c:5d:14:8d:a8,Up
+csb01xbsw012e1d,10.168.24.12,Hirschmann Railswitch,94:ae:e3:4b:4c:78,Hirschmann Automation and Control GmbH,Ok,port-006,,port-002,op02xbim01beec,ec:1c:5d:14:8e:63,Up
+csb01xbsw012e1d,10.168.24.12,Hirschmann Railswitch,94:ae:e3:4b:4c:78,Hirschmann Automation and Control GmbH,Ok,port-007,,,,,Down
+csb01xbsw012e1d,10.168.24.12,Hirschmann Railswitch,94:ae:e3:4b:4c:78,Hirschmann Automation and Control GmbH,Ok,port-008,,,,,Down
+csb02xbsw012e2e,10.168.24.13,Hirschmann Railswitch,94:ae:e3:4b:3b:d8,Hirschmann Automation and Control GmbH,Ok,port-001,,port-001,jb07xbim010e7d,ec:1c:5d:13:26:a4,Up
+csb02xbsw012e2e,10.168.24.13,Hirschmann Railswitch,94:ae:e3:4b:3b:d8,Hirschmann Automation and Control GmbH,Ok,port-002,,port-002,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+csb02xbsw012e2e,10.168.24.13,Hirschmann Railswitch,94:ae:e3:4b:3b:d8,Hirschmann Automation and Control GmbH,Ok,port-003,,port-002,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+csb02xbsw012e2e,10.168.24.13,Hirschmann Railswitch,94:ae:e3:4b:3b:d8,Hirschmann Automation and Control GmbH,Ok,port-004,,port-001,hmi07xbim01856b,ec:1c:5d:14:8d:b4,Up
+csb02xbsw012e2e,10.168.24.13,Hirschmann Railswitch,94:ae:e3:4b:3b:d8,Hirschmann Automation and Control GmbH,Ok,port-005,,port-001,pbsxbdk2691f,ac:64:17:ec:73:32,Up
+csb02xbsw012e2e,10.168.24.13,Hirschmann Railswitch,94:ae:e3:4b:3b:d8,Hirschmann Automation and Control GmbH,Ok,port-006,,,,,Down
+csb02xbsw012e2e,10.168.24.13,Hirschmann Railswitch,94:ae:e3:4b:3b:d8,Hirschmann Automation and Control GmbH,Ok,port-007,,port-001,pbsxbdk1685f,ac:64:17:ec:6c:79,Up
+csb02xbsw012e2e,10.168.24.13,Hirschmann Railswitch,94:ae:e3:4b:3b:d8,Hirschmann Automation and Control GmbH,Ok,port-008,,,,,Down
+csb03xbsw01ee3e,10.168.24.14,Hirschmann Railswitch,94:ae:e3:4b:3c:a0,Hirschmann Automation and Control GmbH,Ok,port-001,,port-002,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+csb03xbsw01ee3e,10.168.24.14,Hirschmann Railswitch,94:ae:e3:4b:3c:a0,Hirschmann Automation and Control GmbH,Ok,port-002,,port-002,op08xbim01be46,ec:1c:5d:14:8d:6e,Up
+csb03xbsw01ee3e,10.168.24.14,Hirschmann Railswitch,94:ae:e3:4b:3c:a0,Hirschmann Automation and Control GmbH,Ok,port-003,,port-002,rcp02xbsw0127ab,94:ae:e3:4b:3c:3c,Up
+csb03xbsw01ee3e,10.168.24.14,Hirschmann Railswitch,94:ae:e3:4b:3c:a0,Hirschmann Automation and Control GmbH,Ok,port-004,,,,,Down
+csb03xbsw01ee3e,10.168.24.14,Hirschmann Railswitch,94:ae:e3:4b:3c:a0,Hirschmann Automation and Control GmbH,Ok,port-005,,,,,Down
+csb03xbsw01ee3e,10.168.24.14,Hirschmann Railswitch,94:ae:e3:4b:3c:a0,Hirschmann Automation and Control GmbH,Ok,port-006,,,,,Down
+csb03xbsw01ee3e,10.168.24.14,Hirschmann Railswitch,94:ae:e3:4b:3c:a0,Hirschmann Automation and Control GmbH,Ok,port-007,,,,,Down
+csb03xbsw01ee3e,10.168.24.14,Hirschmann Railswitch,94:ae:e3:4b:3c:a0,Hirschmann Automation and Control GmbH,Ok,port-008,,,,,Down
+csb04xbsw012e48,10.168.24.15,Hirschmann Railswitch,94:ae:e3:4b:4b:74,Hirschmann Automation and Control GmbH,Ok,port-001,,port-002,jb02xbim010e28,ec:1c:5d:13:27:67,Up
+csb04xbsw012e48,10.168.24.15,Hirschmann Railswitch,94:ae:e3:4b:4b:74,Hirschmann Automation and Control GmbH,Ok,port-002,,port-001,rcp02xbsw0127ab,94:ae:e3:4b:3c:3c,Up
+csb04xbsw012e48,10.168.24.15,Hirschmann Railswitch,94:ae:e3:4b:4b:74,Hirschmann Automation and Control GmbH,Ok,port-003,,,,,Down
+csb04xbsw012e48,10.168.24.15,Hirschmann Railswitch,94:ae:e3:4b:4b:74,Hirschmann Automation and Control GmbH,Ok,port-004,,,,,Down
+csb04xbsw012e48,10.168.24.15,Hirschmann Railswitch,94:ae:e3:4b:4b:74,Hirschmann Automation and Control GmbH,Ok,port-005,,,,,Down
+csb04xbsw012e48,10.168.24.15,Hirschmann Railswitch,94:ae:e3:4b:4b:74,Hirschmann Automation and Control GmbH,Ok,port-006,,,,,Down
+csb04xbsw012e48,10.168.24.15,Hirschmann Railswitch,94:ae:e3:4b:4b:74,Hirschmann Automation and Control GmbH,Ok,port-007,,port-002,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Up
+csb04xbsw012e48,10.168.24.15,Hirschmann Railswitch,94:ae:e3:4b:4b:74,Hirschmann Automation and Control GmbH,Ok,port-008,,port-002,op10xbim01b20e,ec:1c:5d:14:8d:71,Up
+ebxb0005xbvfd10117fe,10.168.24.184,SINAMICS G120 CU250S-2 V,00:1c:06:97:49:d5,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-004,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Up
+ebxb0005xbvfd10117fe,10.168.24.184,SINAMICS G120 CU250S-2 V,00:1c:06:97:49:d5,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0005xbvfd102e8f1,00:1c:06:97:2b:9a,Up
+ebxb0010xbvfd1034311,10.168.24.130,SINAMICS G120 CU250S-2 V,00:1c:06:97:4a:0e,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0030xbvfd102b73e,00:1c:06:97:33:8f,Up
+ebxb0010xbvfd1034311,10.168.24.130,SINAMICS G120 CU250S-2 V,00:1c:06:97:4a:0e,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+ebxb0015xbvfd306d04f,10.168.24.145,SINAMICS G120 CU250S-2 V,00:1c:06:97:4b:d9,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,fkxb0015xbvfd3052686,00:1c:06:97:2b:ac,Up
+ebxb0015xbvfd306d04f,10.168.24.145,SINAMICS G120 CU250S-2 V,00:1c:06:97:4b:d9,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+ebxb0020xbvfd2054e91,10.168.24.190,SINAMICS G120 CU250S-2 V,00:1c:06:97:47:f8,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-006,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Up
+ebxb0020xbvfd2054e91,10.168.24.190,SINAMICS G120 CU250S-2 V,00:1c:06:97:47:f8,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,fkxb0020xbvfd206b858,00:1c:06:97:34:91,Up
+fkxb0010xbvfd10476d9,10.168.24.131,SINAMICS G120 CU240E-2,00:1c:06:97:32:f6,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-005,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+fkxb0010xbvfd10476d9,10.168.24.131,SINAMICS G120 CU240E-2,00:1c:06:97:32:f6,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0035xbvfd1052540,00:1c:06:97:34:8b,Up
+fkxb0015xbvfd3052686,10.168.24.144,SINAMICS G120 CU240E-2,00:1c:06:97:2b:ac,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0855xbvfd3045aea,00:1c:06:97:1e:e0,Up
+fkxb0015xbvfd3052686,10.168.24.144,SINAMICS G120 CU240E-2,00:1c:06:97:2b:ac,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,ebxb0015xbvfd306d04f,00:1c:06:97:4b:d9,Up
+fkxb0020xbvfd206b858,10.168.24.191,SINAMICS G120 CU240E-2,00:1c:06:97:34:91,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,ebxb0020xbvfd2054e91,00:1c:06:97:47:f8,Up
+fkxb0020xbvfd206b858,10.168.24.191,SINAMICS G120 CU240E-2,00:1c:06:97:34:91,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0015xbvfd105efe1,00:1c:06:8d:5c:8a,Up
+fxxxb0005xbvfd1033be7,10.168.24.186,SINAMICS G120 CU240E-2,00:1c:06:97:1f:28,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0005xbvfd102e8f1,00:1c:06:97:2b:9a,Up
+fxxxb0005xbvfd1033be7,10.168.24.186,SINAMICS G120 CU240E-2,00:1c:06:97:1f:28,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+hmi01xbhmi015269,10.168.24.30,TP1200 Comfort,8c:f3:19:5a:53:ca,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-002,hmi01xbim01850d,,Up
+hmi01xbhmi015269,10.168.24.30,TP1200 Comfort,8c:f3:19:5a:53:ca,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
+hmi01xbim01850d,10.168.24.50,ET200SP,ec:1c:5d:13:18:8f,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-002,jb01xbim010e1b,ec:1c:5d:13:12:83,Up
+hmi01xbim01850d,10.168.24.50,ET200SP,ec:1c:5d:13:18:8f,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi01xbhmi015269,8c:f3:19:5a:53:ca,Up
+hmi02xbhmi014729,10.168.24.31,TP1200 Comfort,8c:f3:19:5a:97:5a,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-002,hmi02xbim01853e,,Up
+hmi02xbhmi014729,10.168.24.31,TP1200 Comfort,8c:f3:19:5a:97:5a,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
+hmi02xbim01853e,10.168.24.51,ET200SP,ec:1c:5d:13:26:7d,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-012,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+hmi02xbim01853e,10.168.24.51,ET200SP,ec:1c:5d:13:26:7d,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi02xbhmi014729,8c:f3:19:5a:97:5a,Up
+hmi03xbhmi018be8,10.168.24.32,TP1200 Comfort,8c:f3:19:5a:16:80,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-002,hmi03xbim01452e,,Up
+hmi03xbhmi018be8,10.168.24.32,TP1200 Comfort,8c:f3:19:5a:16:80,SIEMENS AG,Ok,port-002,SOC1 Port 2,port-001,rfid01,,Up
+hmi03xbim01452e,10.168.24.52,ET200SP,ec:1c:5d:13:25:90,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-013,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+hmi03xbim01452e,10.168.24.52,ET200SP,ec:1c:5d:13:25:90,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi03xbhmi018be8,8c:f3:19:5a:16:80,Up
+hmi04xbhmi016da9,10.168.24.33,TP1200 Comfort,8c:f3:19:5a:82:f9,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-002,hmi04xbim018558,,Up
+hmi04xbhmi016da9,10.168.24.33,TP1200 Comfort,8c:f3:19:5a:82:f9,SIEMENS AG,Ok,port-002,SOC1 Port 2,port-001,rfid02,,Up
+hmi04xbim018558,10.168.24.53,ET200SP,ec:1c:5d:13:27:d6,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-014,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+hmi04xbim018558,10.168.24.53,ET200SP,ec:1c:5d:13:27:d6,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi04xbhmi016da9,8c:f3:19:5a:82:f9,Up
+hmi05xbhmi01a168,10.168.24.34,TP1200 Comfort,8c:f3:19:42:72:2d,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-002,hmi05xbim014548,,Up
+hmi05xbhmi01a168,10.168.24.34,TP1200 Comfort,8c:f3:19:42:72:2d,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
+hmi05xbim014548,10.168.24.54,ET200SP,ec:1c:5d:13:27:4f,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-002,jb06xbim01ce6d,ec:1c:5d:13:29:54,Up
+hmi05xbim014548,10.168.24.54,ET200SP,ec:1c:5d:13:27:4f,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi05xbhmi01a168,8c:f3:19:42:72:2d,Up
+hmi06xbhmi01b428,10.168.24.35,TP1200 Comfort,8c:f3:19:5a:83:13,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-002,hmi06xbim01457b,,Up
+hmi06xbhmi01b428,10.168.24.35,TP1200 Comfort,8c:f3:19:5a:83:13,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
+hmi06xbim01457b,10.168.24.55,ET200SP,ec:1c:5d:13:26:f2,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-002,jb07xbim010e7d,ec:1c:5d:13:26:a4,Up
+hmi06xbim01457b,10.168.24.55,ET200SP,ec:1c:5d:13:26:f2,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi06xbhmi01b428,8c:f3:19:5a:83:13,Up
+hmi07xbhmi0178e9,10.168.24.36,TP1200 Comfort,8c:f3:19:5a:16:9b,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-002,hmi07xbim01856b,,Up
+hmi07xbhmi0178e9,10.168.24.36,TP1200 Comfort,8c:f3:19:5a:16:9b,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
+hmi07xbim01856b,10.168.24.56,ET200SP,ec:1c:5d:14:8d:b4,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-004,csb02xbsw012e2e,94:ae:e3:4b:3b:d8,Up
+hmi07xbim01856b,10.168.24.56,ET200SP,ec:1c:5d:14:8d:b4,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi07xbhmi0178e9,8c:f3:19:5a:16:9b,Up
+hmi08xbhmi0138a9,10.168.24.37,TP1200 Comfort,8c:f3:19:5a:97:7d,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-002,hmi08xbim018594,,Up
+hmi08xbhmi0138a9,10.168.24.37,TP1200 Comfort,8c:f3:19:5a:97:7d,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
+hmi08xbim018594,10.168.24.57,ET200SP,ec:1c:5d:13:18:32,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-010,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+hmi08xbim018594,10.168.24.57,ET200SP,ec:1c:5d:13:18:32,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi08xbhmi0138a9,8c:f3:19:5a:97:7d,Up
+hmi09xbhmi01f468,10.168.24.38,TP1200 Comfort,8c:f3:19:5a:97:0b,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-002,hmi09xbim014584,,Up
+hmi09xbhmi01f468,10.168.24.38,TP1200 Comfort,8c:f3:19:5a:97:0b,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
+hmi09xbim014584,10.168.24.58,ET200SP,ec:1c:5d:13:18:6b,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-014,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+hmi09xbim014584,10.168.24.58,ET200SP,ec:1c:5d:13:18:6b,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi09xbhmi01f468,8c:f3:19:5a:97:0b,Up
+hmi10xbhmi010ea5,10.168.24.39,TP1200 Comfort,8c:f3:19:5a:b7:81,SIEMENS AG,Ok,port-001,SOC1 Port 1,,,,Up
+hmi10xbhmi010ea5,10.168.24.39,TP1200 Comfort,8c:f3:19:5a:b7:81,SIEMENS AG,Ok,port-002,SOC1 Port 2,port-002,hmi10xbim0189dc,,Up
+hmi10xbim0189dc,10.168.24.59,ET200SP,ec:1c:5d:13:26:38,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-015,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Up
+hmi10xbim0189dc,10.168.24.59,ET200SP,ec:1c:5d:13:26:38,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-002,hmi10xbhmi010ea5,8c:f3:19:5a:b7:81,Up
+hmi11xbhmi01.profinetxaschnittstellexb1d906,10.168.24.40,TP1500 Comfort V2,30:13:89:27:1d:f1,SIEMENS AG,Ok,port-001,SOC1 Port 1,port-001,hmi11xbim0149cc,,Up
+hmi11xbhmi01.profinetxaschnittstellexb1d906,10.168.24.40,TP1500 Comfort V2,30:13:89:27:1d:f1,SIEMENS AG,Ok,port-001,I210_GEC Port 1,,,,Up
+hmi11xbhmi01.profinetxaschnittstellexb1d906,10.168.24.40,TP1500 Comfort V2,30:13:89:27:1d:f1,SIEMENS AG,Ok,port-002,SOC1 Port 2,,,,Up
+hmi11xbim0149cc,10.168.24.93,ET200SP,ec:1c:5d:4b:cc:4a,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1",port-001,hmi11xbhmi01.profinetxaschnittstellexb1d906,30:13:89:27:1d:f1,Up
+hmi11xbim0149cc,10.168.24.93,ET200SP,ec:1c:5d:4b:cc:4a,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2",port-004,,38:4b:24:21:1c:30,Up
+jb01xbim010e1b,10.168.24.85,ET200SP,ec:1c:5d:13:12:83,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-009,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Up
+jb01xbim010e1b,10.168.24.85,ET200SP,ec:1c:5d:13:12:83,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi01xbim01850d,ec:1c:5d:13:18:8f,Up
+jb02xbim010e28,10.168.24.86,ET200SP,ec:1c:5d:13:27:67,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",,,,Down
+jb02xbim010e28,10.168.24.86,ET200SP,ec:1c:5d:13:27:67,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,csb04xbsw012e48,94:ae:e3:4b:4b:74,Up
+jb03xbim01ce38,10.168.24.87,ET200SP,ec:1c:5d:13:22:91,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",,,,Down
+jb03xbim01ce38,10.168.24.87,ET200SP,ec:1c:5d:13:22:91,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,jb04xbim010e4e,ec:1c:5d:13:29:6e,Up
+jb04xbim010e4e,10.168.24.88,ET200SP,ec:1c:5d:13:29:6e,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-002,jb03xbim01ce38,ec:1c:5d:13:22:91,Up
+jb04xbim010e4e,10.168.24.88,ET200SP,ec:1c:5d:13:29:6e,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-002,csb01xbsw012e1d,94:ae:e3:4b:4c:78,Up
+jb05xbim01ce5e,10.168.24.89,ET200SP,ec:1c:5d:13:25:db,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-013,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+jb05xbim01ce5e,10.168.24.89,ET200SP,ec:1c:5d:13:25:db,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-002,op04xbim01be8a,ec:1c:5d:14:8e:34,Up
+jb06xbim01ce6d,10.168.24.90,ET200SP,ec:1c:5d:13:29:54,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-011,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+jb06xbim01ce6d,10.168.24.90,ET200SP,ec:1c:5d:13:29:54,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi05xbim014548,ec:1c:5d:13:27:4f,Up
+jb07xbim010e7d,10.168.24.91,ET200SP,ec:1c:5d:13:26:a4,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-001,csb02xbsw012e2e,94:ae:e3:4b:3b:d8,Up
+jb07xbim010e7d,10.168.24.91,ET200SP,ec:1c:5d:13:26:a4,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,hmi06xbim01457b,ec:1c:5d:13:26:f2,Up
+jb08xbim010e82,10.168.24.92,ET200SP,ec:1c:5d:13:27:6a,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-002,op05xbim017e9a,ec:1c:5d:14:8d:d3,Up
+jb08xbim010e82,10.168.24.92,ET200SP,ec:1c:5d:13:27:6a,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-009,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+larmxb0005xbvfd3052dfa,10.168.24.158,SINAMICS G120 CU240E-2,00:1c:06:97:b3:af,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-007,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+larmxb0005xbvfd3052dfa,10.168.24.158,SINAMICS G120 CU240E-2,00:1c:06:97:b3:af,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rarmxb0005xbvfd30602dc,00:1c:06:97:b3:64,Up
+mcpxbcm01956e,10.168.24.111,PAC3220,10:df:fc:07:c3:8d,SIEMENS AG,Ok,port-001,"Siemens, SENTRON, Ethernet Port, X1 P1",port-010,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+mcpxbcm01956e,10.168.24.111,PAC3220,10:df:fc:07:c3:8d,SIEMENS AG,Ok,port-002,"Siemens, SENTRON, Ethernet Port, X1 P2",,,,Down
+mcpxbim014d6d,10.168.24.41,ET200SP,ec:1c:5d:13:0d:98,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-004,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+mcpxbim014d6d,10.168.24.41,ET200SP,ec:1c:5d:13:0d:98,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,mcpxbim024c2d,ec:1c:5d:13:0b:b0,Up
+mcpxbim024c2d,10.168.24.42,ET200SP,ec:1c:5d:13:0b:b0,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-002,mcpxbim014d6d,ec:1c:5d:13:0d:98,Up
+mcpxbim024c2d,10.168.24.42,ET200SP,ec:1c:5d:13:0b:b0,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",,,,Down
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-001,,port-003,csb01xbsw012e1d,94:ae:e3:4b:4c:78,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-002,,port-002,csb02xbsw012e2e,94:ae:e3:4b:3b:d8,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-003,,port-002,pbs.profinetxbinterfacexbxx176ad,ec:1c:5d:27:de:b9,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-004,,port-001,mcpxbim014d6d,ec:1c:5d:13:0d:98,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-005,,port-001,rbxb0140xbvfd202917b,00:1c:06:96:6e:0e,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-006,,port-001,rbxb0440xbvfd2085aea,00:1c:06:97:2b:88,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-007,,port-001,rbxb0450xbvfd211097a,00:1c:06:97:1f:e8,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-008,,port-001,rbxb0475xbvfd302c2f4,00:1c:06:95:f7:cf,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-009,,port-001,rbxb0490xbvfd305a5eb,00:1c:06:97:2b:c1,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-010,,port-001,mcpxbcm01956e,10:df:fc:07:c3:8d,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-011,,port-001,jb06xbim01ce6d,ec:1c:5d:13:29:54,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-012,,,,,Down
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-013,,port-001,jb05xbim01ce5e,ec:1c:5d:13:25:db,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-014,,port-001,hmi04xbim018558,ec:1c:5d:13:27:d6,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-015,,port-001,pbsxbdoor-couplere0d4,ec:1c:5d:17:ff:32,Up
+mcpxbsw01924b,10.168.24.6,Hirschmann Railswitch,94:ae:e3:49:da:06,Hirschmann Automation and Control GmbH,Ok,port-016,,port-001,nio-bs-arlen,bc:0f:f3:86:19:55,Up
+op02xbim01beec,10.168.24.61,ET200SP,ec:1c:5d:14:8e:63,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",,,,Down
+op02xbim01beec,10.168.24.61,ET200SP,ec:1c:5d:14:8e:63,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-006,csb01xbsw012e1d,94:ae:e3:4b:4c:78,Up
+op03xbim017efc,10.168.24.62,ET200SP,ec:1c:5d:14:8d:a8,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",,,,Down
+op03xbim017efc,10.168.24.62,ET200SP,ec:1c:5d:14:8d:a8,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-005,csb01xbsw012e1d,94:ae:e3:4b:4c:78,Up
+op04xbim01be8a,10.168.24.63,ET200SP,ec:1c:5d:14:8e:34,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",,,,Down
+op04xbim01be8a,10.168.24.63,ET200SP,ec:1c:5d:14:8e:34,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-002,jb05xbim01ce5e,ec:1c:5d:13:25:db,Up
+op05xbim017e9a,10.168.24.64,ET200SP,ec:1c:5d:14:8d:d3,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-003,,38:4b:24:21:1c:30,Up
+op05xbim017e9a,10.168.24.64,ET200SP,ec:1c:5d:14:8d:d3,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-001,jb08xbim010e82,ec:1c:5d:13:27:6a,Up
+op06xbim017ea9,10.168.24.65,ET200SP,ec:1c:5d:14:8e:53,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",,,,Down
+op06xbim017ea9,10.168.24.65,ET200SP,ec:1c:5d:14:8e:53,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-011,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+op07xbim01beb9,10.168.24.66,ET200SP,ec:1c:5d:14:8d:9d,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-012,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+op07xbim01beb9,10.168.24.66,ET200SP,ec:1c:5d:14:8d:9d,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",,,,Down
+op08xbim01be46,10.168.24.67,ET200SP,ec:1c:5d:14:8d:6e,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",,,,Down
+op08xbim01be46,10.168.24.67,ET200SP,ec:1c:5d:14:8d:6e,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-002,csb03xbsw01ee3e,94:ae:e3:4b:3c:a0,Up
+op09xbim017e56,10.168.24.68,ET200SP,ec:1c:5d:14:8e:60,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",,,,Down
+op09xbim017e56,10.168.24.68,ET200SP,ec:1c:5d:14:8e:60,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-004,rcp02xbsw0127ab,94:ae:e3:4b:3c:3c,Up
+op10xbim01b20e,10.168.24.69,ET200SP,ec:1c:5d:14:8d:71,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",,,,Down
+op10xbim01b20e,10.168.24.69,ET200SP,ec:1c:5d:14:8d:71,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",port-008,csb04xbsw012e48,94:ae:e3:4b:4b:74,Up
+pbs.profinetxbinterfacexbxx176ad,10.168.24.5,S7-1500,ec:1c:5d:27:de:b9,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1R",,,,Down
+pbs.profinetxbinterfacexbxx176ad,10.168.24.5,S7-1500,ec:1c:5d:27:de:b9,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X2 P1",,,,Down
+pbs.profinetxbinterfacexbxx176ad,10.168.24.5,S7-1500,ec:1c:5d:27:de:b9,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X3 P1",,,,Down
+pbs.profinetxbinterfacexbxx176ad,10.168.24.5,S7-1500,ec:1c:5d:27:de:b9,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, W1 P1",,,,Up
+pbs.profinetxbinterfacexbxx176ad,10.168.24.5,S7-1500,ec:1c:5d:27:de:b9,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2R",port-003,mcpxbsw01924b,,Up
+pbsxbbdc.xx21f66,10.168.24.28,PNPN_IOC,ec:1c:5d:16:a7:bf,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X2 P1 R",port-016,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Up
+pbsxbbdc.xx21f66,10.168.24.28,PNPN_IOC,ec:1c:5d:16:a7:bf,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X2 P2 R",,,,Down
+pbsxbdk1685f,10.168.24.23,PNPN_IOC,ac:64:17:ec:6c:79,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X2 P1 R",port-007,csb02xbsw012e2e,94:ae:e3:4b:3b:d8,Up
+pbsxbdk1685f,10.168.24.23,PNPN_IOC,ac:64:17:ec:6c:79,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X2 P2 R",,,,Down
+pbsxbdk2691f,10.168.24.24,PNPN_IOC,ac:64:17:ec:73:32,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X2 P1 R",port-005,csb02xbsw012e2e,94:ae:e3:4b:3b:d8,Up
+pbsxbdk2691f,10.168.24.24,PNPN_IOC,ac:64:17:ec:73:32,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X2 P2 R",,,,Down
+pbsxbdoor-couplere0d4,10.168.24.25,PNPN_IOC,ec:1c:5d:17:ff:32,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X2 P1 R",port-015,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+pbsxbdoor-couplere0d4,10.168.24.25,PNPN_IOC,ec:1c:5d:17:ff:32,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X2 P2 R",,,,Down
+pbsxbtlxx.xx2167b,10.168.24.49,PNPN_IOC,ec:1c:5d:71:bc:f4,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X2 P1 R",,,,Down
+pbsxbtlxx.xx2167b,10.168.24.49,PNPN_IOC,ec:1c:5d:71:bc:f4,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X2 P2 R",port-010,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Up
+pbsxbtrim12xbcop01ef80,10.168.24.27,PNPN_IOC,ac:64:17:f1:d7:3a,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X2 P1 R",,,,Down
+pbsxbtrim12xbcop01ef80,10.168.24.27,PNPN_IOC,ac:64:17:f1:d7:3a,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X2 P2 R",port-014,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+psxb0005xbvfd2064650,10.168.24.173,SINAMICS G120 CU240E-2,00:1c:06:97:1f:97,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0545xbvfd2053310,00:1c:06:95:b4:1d,Up
+psxb0005xbvfd2064650,10.168.24.173,SINAMICS G120 CU240E-2,00:1c:06:97:1f:97,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+psxb0010xbvfd20713ff,10.168.24.174,SINAMICS G120 CU240E-2,00:1c:06:96:a1:94,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-011,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+psxb0010xbvfd20713ff,10.168.24.174,SINAMICS G120 CU240E-2,00:1c:06:96:a1:94,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0550xbvfd20863bf,00:1c:06:97:0e:6f,Up
+psxb0020xbvfd3031f5f,10.168.24.156,SINAMICS G120 CU240E-2,00:1c:06:97:1d:cc,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,stxb0005xbvfd302b607,00:1c:06:97:48:07,Up
+psxb0020xbvfd3031f5f,10.168.24.156,SINAMICS G120 CU240E-2,00:1c:06:97:1d:cc,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0640xbvfd30427b0,00:1c:06:97:2d:bf,Up
+ptxb0005xbvfd10644e7,10.168.24.133,SINAMICS G120 CU240E-2,00:1c:06:97:2b:8e,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0035xbvfd1052540,00:1c:06:97:34:8b,Up
+ptxb0005xbvfd10644e7,10.168.24.133,SINAMICS G120 CU240E-2,00:1c:06:97:2b:8e,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+ptxb0010xbvfd301d369,10.168.24.123,SINAMICS G120 CU240E-2,00:1c:06:97:2b:be,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0470xbvfd21500da,00:1c:06:97:1f:16,Up
+ptxb0010xbvfd301d369,10.168.24.123,SINAMICS G120 CU240E-2,00:1c:06:97:2b:be,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+ptxb0015xbvfd10143f7,10.168.24.161,SINAMICS G120 CU240E-2,00:1c:06:97:34:73,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-014,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+ptxb0015xbvfd10143f7,10.168.24.161,SINAMICS G120 CU240E-2,00:1c:06:97:34:73,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0495xbvfd102f734,00:1c:06:95:f7:60,Up
+ptxb0020xbvfd403dca9,10.168.24.178,SINAMICS G120 CU240E-2,00:1c:06:96:6d:e7,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-007,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+ptxb0020xbvfd403dca9,10.168.24.178,SINAMICS G120 CU240E-2,00:1c:06:96:6d:e7,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0755xbvfd4048f6b,00:1c:06:96:a2:7b,Up
+ptxb0025xbvfd4098b16,10.168.24.182,SINAMICS G120 CU240E-2,00:1c:06:97:2b:8b,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0775xbvfd40840ca,00:1c:06:96:a1:52,Up
+ptxb0025xbvfd4098b16,10.168.24.182,SINAMICS G120 CU240E-2,00:1c:06:97:2b:8b,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0780xbvfd41076c5,00:1c:06:97:2b:ca,Up
+ptxb0030xbvfd303d849,10.168.24.142,SINAMICS G120 CU240E-2,00:1c:06:96:6d:d8,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0850xbvfd3020855,00:1c:06:97:0e:72,Up
+ptxb0030xbvfd303d849,10.168.24.142,SINAMICS G120 CU240E-2,00:1c:06:96:6d:d8,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+ptxb0035xbvfd3101937,10.168.24.194,SINAMICS G120 CU240E-2,00:1c:06:97:1f:9d,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0655xbvfd309771f,00:1c:06:97:1f:43,Up
+ptxb0035xbvfd3101937,10.168.24.194,SINAMICS G120 CU240E-2,00:1c:06:97:1f:9d,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rarmxb0005xbvfd30602dc,10.168.24.159,SINAMICS G120 CU240E-2,00:1c:06:97:b3:64,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,larmxb0005xbvfd3052dfa,00:1c:06:97:b3:af,Up
+rarmxb0005xbvfd30602dc,10.168.24.159,SINAMICS G120 CU240E-2,00:1c:06:97:b3:64,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0645xbvfd30776cf,00:1c:06:97:b3:34,Up
+rarmxb0010xbvfd3130473,10.168.24.196,SINAMICS G120 CU240E-2,00:1c:06:96:ca:18,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0645xbvfd30776cf,00:1c:06:97:b3:34,Up
+rarmxb0010xbvfd3130473,10.168.24.196,SINAMICS G120 CU240E-2,00:1c:06:96:ca:18,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0005xbvfd102e8f1,10.168.24.185,SINAMICS G120 CU240E-2,00:1c:06:97:2b:9a,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,ebxb0005xbvfd10117fe,00:1c:06:97:49:d5,Up
+rbxb0005xbvfd102e8f1,10.168.24.185,SINAMICS G120 CU240E-2,00:1c:06:97:2b:9a,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,fxxxb0005xbvfd1033be7,00:1c:06:97:1f:28,Up
+rbxb0010xbvfd1047f1f,10.168.24.187,SINAMICS G120 CU240E-2,00:1c:06:97:2b:94,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-005,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Up
+rbxb0010xbvfd1047f1f,10.168.24.187,SINAMICS G120 CU240E-2,00:1c:06:97:2b:94,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0880xbvfd203f254,00:1c:06:97:2b:d0,Up
+rbxb0015xbvfd105efe1,10.168.24.203,SINAMICS G120 CU240E-2,00:1c:06:8d:5c:8a,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,fkxb0020xbvfd206b858,00:1c:06:97:34:91,Up
+rbxb0015xbvfd105efe1,10.168.24.203,SINAMICS G120 CU240E-2,00:1c:06:8d:5c:8a,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0025xbvfd1012310,10.168.24.128,SINAMICS G120 CU240E-2,00:1c:06:96:19:96,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-004,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+rbxb0025xbvfd1012310,10.168.24.128,SINAMICS G120 CU240E-2,00:1c:06:96:19:96,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0030xbvfd102b73e,00:1c:06:97:33:8f,Up
+rbxb0030xbvfd102b73e,10.168.24.129,SINAMICS G120 CU240E-2,00:1c:06:97:33:8f,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0025xbvfd1012310,00:1c:06:96:19:96,Up
+rbxb0030xbvfd102b73e,10.168.24.129,SINAMICS G120 CU240E-2,00:1c:06:97:33:8f,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,ebxb0010xbvfd1034311,00:1c:06:97:4a:0e,Up
+rbxb0035xbvfd1052540,10.168.24.132,SINAMICS G120 CU240E-2,00:1c:06:97:34:8b,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,fkxb0010xbvfd10476d9,00:1c:06:97:32:f6,Up
+rbxb0035xbvfd1052540,10.168.24.132,SINAMICS G120 CU240E-2,00:1c:06:97:34:8b,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,ptxb0005xbvfd10644e7,00:1c:06:97:2b:8e,Up
+rbxb0040xbvfd2026d7f,10.168.24.135,SINAMICS G120 CU240E-2,00:1c:06:97:33:0b,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,tcxb0005xbvfd2014b03,00:1c:06:97:4b:22,Up
+rbxb0040xbvfd2026d7f,10.168.24.135,SINAMICS G120 CU240E-2,00:1c:06:97:33:0b,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0045xbvfd203fd81,00:1c:06:95:f7:e1,Up
+rbxb0045xbvfd203fd81,10.168.24.136,SINAMICS G120 CU240E-2,00:1c:06:95:f7:e1,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0040xbvfd2026d7f,00:1c:06:97:33:0b,Up
+rbxb0045xbvfd203fd81,10.168.24.136,SINAMICS G120 CU240E-2,00:1c:06:95:f7:e1,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0140xbvfd202917b,10.168.24.115,SINAMICS G120 CU240E-2,00:1c:06:96:6e:0e,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-005,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+rbxb0140xbvfd202917b,10.168.24.115,SINAMICS G120 CU240E-2,00:1c:06:96:6e:0e,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0240xbvfd204d7f4,00:1c:06:97:0e:8a,Up
+rbxb0145xbvfd2060245,10.168.24.137,SINAMICS G120 CU240E-2,00:1c:06:97:34:04,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-007,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+rbxb0145xbvfd2060245,10.168.24.137,SINAMICS G120 CU240E-2,00:1c:06:97:34:04,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0245xbvfd209420a,00:1c:06:97:1d:bd,Up
+rbxb0240xbvfd204d7f4,10.168.24.116,SINAMICS G120 CU240E-2,00:1c:06:97:0e:8a,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0140xbvfd202917b,00:1c:06:96:6e:0e,Up
+rbxb0240xbvfd204d7f4,10.168.24.116,SINAMICS G120 CU240E-2,00:1c:06:97:0e:8a,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0340xbvfd206ea71,00:1c:06:97:2b:82,Up
+rbxb0245xbvfd209420a,10.168.24.138,SINAMICS G120 CU240E-2,00:1c:06:97:1d:bd,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0145xbvfd2060245,00:1c:06:97:34:04,Up
+rbxb0245xbvfd209420a,10.168.24.138,SINAMICS G120 CU240E-2,00:1c:06:97:1d:bd,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0345xbvfd212e94e,00:1c:06:97:0e:4e,Up
+rbxb0340xbvfd206ea71,10.168.24.117,SINAMICS G120 CU240E-2,00:1c:06:97:2b:82,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0240xbvfd204d7f4,00:1c:06:97:0e:8a,Up
+rbxb0340xbvfd206ea71,10.168.24.117,SINAMICS G120 CU240E-2,00:1c:06:97:2b:82,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0345xbvfd212e94e,10.168.24.139,SINAMICS G120 CU240E-2,00:1c:06:97:0e:4e,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0245xbvfd209420a,00:1c:06:97:1d:bd,Up
+rbxb0345xbvfd212e94e,10.168.24.139,SINAMICS G120 CU240E-2,00:1c:06:97:0e:4e,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0440xbvfd2085aea,10.168.24.118,SINAMICS G120 CU240E-2,00:1c:06:97:2b:88,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-006,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+rbxb0440xbvfd2085aea,10.168.24.118,SINAMICS G120 CU240E-2,00:1c:06:97:2b:88,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0445xbvfd209ca14,00:1c:06:97:20:a8,Up
+rbxb0445xbvfd209ca14,10.168.24.119,SINAMICS G120 CU240E-2,00:1c:06:97:20:a8,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0440xbvfd2085aea,00:1c:06:97:2b:88,Up
+rbxb0445xbvfd209ca14,10.168.24.119,SINAMICS G120 CU240E-2,00:1c:06:97:20:a8,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-002,tcxb0010xbvfd2108ead,00:1c:06:97:4a:32,Up
+rbxb0450xbvfd211097a,10.168.24.121,SINAMICS G120 CU240E-2,00:1c:06:97:1f:e8,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-007,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+rbxb0450xbvfd211097a,10.168.24.121,SINAMICS G120 CU240E-2,00:1c:06:97:1f:e8,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0470xbvfd21500da,00:1c:06:97:1f:16,Up
+rbxb0470xbvfd21500da,10.168.24.122,SINAMICS G120 CU240E-2,00:1c:06:97:1f:16,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0450xbvfd211097a,00:1c:06:97:1f:e8,Up
+rbxb0470xbvfd21500da,10.168.24.122,SINAMICS G120 CU240E-2,00:1c:06:97:1f:16,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,ptxb0010xbvfd301d369,00:1c:06:97:2b:be,Up
+rbxb0475xbvfd302c2f4,10.168.24.124,SINAMICS G120 CU240E-2,00:1c:06:95:f7:cf,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-008,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+rbxb0475xbvfd302c2f4,10.168.24.124,SINAMICS G120 CU240E-2,00:1c:06:95:f7:cf,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0480xbvfd303623a,00:1c:06:97:20:18,Up
+rbxb0480xbvfd303623a,10.168.24.125,SINAMICS G120 CU240E-2,00:1c:06:97:20:18,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0475xbvfd302c2f4,00:1c:06:95:f7:cf,Up
+rbxb0480xbvfd303623a,10.168.24.125,SINAMICS G120 CU240E-2,00:1c:06:97:20:18,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0485xbvfd304f044,00:1c:06:95:b3:7b,Up
+rbxb0485xbvfd304f044,10.168.24.126,SINAMICS G120 CU240E-2,00:1c:06:95:b3:7b,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0480xbvfd303623a,00:1c:06:97:20:18,Up
+rbxb0485xbvfd304f044,10.168.24.126,SINAMICS G120 CU240E-2,00:1c:06:95:b3:7b,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0490xbvfd305a5eb,10.168.24.127,SINAMICS G120 CU240E-2,00:1c:06:97:2b:c1,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-009,mcpxbsw01924b,94:ae:e3:49:da:06,Up
+rbxb0490xbvfd305a5eb,10.168.24.127,SINAMICS G120 CU240E-2,00:1c:06:97:2b:c1,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0495xbvfd102f734,10.168.24.162,SINAMICS G120 CU240E-2,00:1c:06:95:f7:60,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,ptxb0015xbvfd10143f7,00:1c:06:97:34:73,Up
+rbxb0495xbvfd102f734,10.168.24.162,SINAMICS G120 CU240E-2,00:1c:06:95:f7:60,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0500xbvfd103b41e,00:1c:06:97:1e:35,Up
+rbxb0500xbvfd103b41e,10.168.24.163,SINAMICS G120 CU240E-2,00:1c:06:97:1e:35,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0495xbvfd102f734,00:1c:06:95:f7:60,Up
+rbxb0500xbvfd103b41e,10.168.24.163,SINAMICS G120 CU240E-2,00:1c:06:97:1e:35,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0510xbvfd10573cf,10.168.24.164,SINAMICS G120 CU240E-2,00:1c:06:95:f7:5d,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-005,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+rbxb0510xbvfd10573cf,10.168.24.164,SINAMICS G120 CU240E-2,00:1c:06:95:f7:5d,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0515xbvfd10622b0,00:1c:06:96:a2:7e,Up
+rbxb0515xbvfd10622b0,10.168.24.165,SINAMICS G120 CU240E-2,00:1c:06:96:a2:7e,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0510xbvfd10573cf,00:1c:06:95:f7:5d,Up
+rbxb0515xbvfd10622b0,10.168.24.165,SINAMICS G120 CU240E-2,00:1c:06:96:a2:7e,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0520xbvfd107bdbe,00:1c:06:96:a5:96,Up
+rbxb0520xbvfd107bdbe,10.168.24.166,SINAMICS G120 CU240E-2,00:1c:06:96:a5:96,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0515xbvfd10622b0,00:1c:06:96:a2:7e,Up
+rbxb0520xbvfd107bdbe,10.168.24.166,SINAMICS G120 CU240E-2,00:1c:06:96:a5:96,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0525xbvfd108e9c1,10.168.24.167,SINAMICS G120 CU240E-2,00:1c:06:96:a2:78,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-006,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+rbxb0525xbvfd108e9c1,10.168.24.167,SINAMICS G120 CU240E-2,00:1c:06:96:a2:78,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0745xbvfd40149fa,00:1c:06:97:1f:52,Up
+rbxb0530xbvfd2027bdf,10.168.24.169,SINAMICS G120 CU240E-2,00:1c:06:97:33:e6,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,tcxb0015xbvfd2018e52,00:1c:06:97:1d:b1,Up
+rbxb0530xbvfd2027bdf,10.168.24.169,SINAMICS G120 CU240E-2,00:1c:06:97:33:e6,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0535xbvfd203eb21,00:1c:06:97:33:7a,Up
+rbxb0535xbvfd203eb21,10.168.24.170,SINAMICS G120 CU240E-2,00:1c:06:97:33:7a,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0530xbvfd2027bdf,00:1c:06:97:33:e6,Up
+rbxb0535xbvfd203eb21,10.168.24.170,SINAMICS G120 CU240E-2,00:1c:06:97:33:7a,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0540xbvfd204a3ee,10.168.24.171,SINAMICS G120 CU240E-2,00:1c:06:97:34:76,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-001,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+rbxb0540xbvfd204a3ee,10.168.24.171,SINAMICS G120 CU240E-2,00:1c:06:97:34:76,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0545xbvfd2053310,00:1c:06:95:b4:1d,Up
+rbxb0545xbvfd2053310,10.168.24.172,SINAMICS G120 CU240E-2,00:1c:06:95:b4:1d,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0540xbvfd204a3ee,00:1c:06:97:34:76,Up
+rbxb0545xbvfd2053310,10.168.24.172,SINAMICS G120 CU240E-2,00:1c:06:95:b4:1d,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,psxb0005xbvfd2064650,00:1c:06:97:1f:97,Up
+rbxb0550xbvfd20863bf,10.168.24.175,SINAMICS G120 CU240E-2,00:1c:06:97:0e:6f,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,psxb0010xbvfd20713ff,00:1c:06:96:a1:94,Up
+rbxb0550xbvfd20863bf,10.168.24.175,SINAMICS G120 CU240E-2,00:1c:06:97:0e:6f,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0555xbvfd10135b0,10.168.24.148,SINAMICS G120 CU240E-2,00:1c:06:97:1f:df,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-008,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+rbxb0555xbvfd10135b0,10.168.24.148,SINAMICS G120 CU240E-2,00:1c:06:97:1f:df,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0565xbinv2000ba6d,10.168.24.197,SINAMICS G120 CU240E-2,e8:ef:22:27:f2:32,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-008,,38:4b:24:21:1c:30,Up
+rbxb0565xbinv2000ba6d,10.168.24.197,SINAMICS G120 CU240E-2,e8:ef:22:27:f2:32,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0570xbinv2050067a,e8:ef:22:28:3c:50,Up
+rbxb0570xbinv2050067a,10.168.24.198,SINAMICS G120 CU240E-2,e8:ef:22:28:3c:50,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0565xbinv2000ba6d,e8:ef:22:27:f2:32,Up
+rbxb0570xbinv2050067a,10.168.24.198,SINAMICS G120 CU240E-2,e8:ef:22:28:3c:50,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0575xbinv21008638,e8:ef:22:25:f0:18,Up
+rbxb0575xbinv21008638,10.168.24.199,SINAMICS G120 CU240E-2,e8:ef:22:25:f0:18,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0570xbinv2050067a,e8:ef:22:28:3c:50,Up
+rbxb0575xbinv21008638,10.168.24.199,SINAMICS G120 CU240E-2,e8:ef:22:25:f0:18,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0580xbinv2150d21b,10.168.24.200,SINAMICS G120 CU240E-2,e8:ef:22:28:23:60,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-007,,38:4b:24:21:1c:30,Up
+rbxb0580xbinv2150d21b,10.168.24.200,SINAMICS G120 CU240E-2,e8:ef:22:28:23:60,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0585xbinv220092f8,e8:ef:22:28:23:7e,Up
+rbxb0585xbinv220092f8,10.168.24.201,SINAMICS G120 CU240E-2,e8:ef:22:28:23:7e,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0580xbinv2150d21b,e8:ef:22:28:23:60,Up
+rbxb0585xbinv220092f8,10.168.24.201,SINAMICS G120 CU240E-2,e8:ef:22:28:23:7e,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0590xbinv22502eef,e8:ef:22:28:3b:06,Up
+rbxb0590xbinv22502eef,10.168.24.202,SINAMICS G120 CU240E-2,e8:ef:22:28:3b:06,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0585xbinv220092f8,e8:ef:22:28:23:7e,Up
+rbxb0590xbinv22502eef,10.168.24.202,SINAMICS G120 CU240E-2,e8:ef:22:28:3b:06,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0605xbvfd204629f,10.168.24.149,SINAMICS G120 CU240E-2,00:1c:06:97:33:11,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-004,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+rbxb0605xbvfd204629f,10.168.24.149,SINAMICS G120 CU240E-2,00:1c:06:97:33:11,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0615xbvfd205670f,00:1c:06:97:1f:d0,Up
+rbxb0615xbvfd205670f,10.168.24.150,SINAMICS G120 CU240E-2,00:1c:06:97:1f:d0,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0605xbvfd204629f,00:1c:06:97:33:11,Up
+rbxb0615xbvfd205670f,10.168.24.150,SINAMICS G120 CU240E-2,00:1c:06:97:1f:d0,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0620xbvfd2063980,00:1c:06:96:a1:64,Up
+rbxb0620xbvfd2063980,10.168.24.151,SINAMICS G120 CU240E-2,00:1c:06:96:a1:64,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0615xbvfd205670f,00:1c:06:97:1f:d0,Up
+rbxb0620xbvfd2063980,10.168.24.151,SINAMICS G120 CU240E-2,00:1c:06:96:a1:64,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0625xbvfd208ad3e,10.168.24.153,SINAMICS G120 CU240E-2,00:1c:06:97:1d:ea,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,tcxb0020xbvfd207d31d,00:1c:06:97:20:84,Up
+rbxb0625xbvfd208ad3e,10.168.24.153,SINAMICS G120 CU240E-2,00:1c:06:97:1d:ea,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-002,rbxb0635xbvfd301aefe,00:1c:06:97:b2:02,Up
+rbxb0635xbvfd301aefe,10.168.24.154,SINAMICS G120 CU240E-2,00:1c:06:97:b2:02,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",,,,Down
+rbxb0635xbvfd301aefe,10.168.24.154,SINAMICS G120 CU240E-2,00:1c:06:97:b2:02,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-002,rbxb0625xbvfd208ad3e,00:1c:06:97:1d:ea,Up
+rbxb0640xbvfd30427b0,10.168.24.157,SINAMICS G120 CU240E-2,00:1c:06:97:2d:bf,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,psxb0020xbvfd3031f5f,00:1c:06:97:1d:cc,Up
+rbxb0640xbvfd30427b0,10.168.24.157,SINAMICS G120 CU240E-2,00:1c:06:97:2d:bf,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0645xbvfd30776cf,10.168.24.160,SINAMICS G120 CU240E-2,00:1c:06:97:b3:34,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rarmxb0005xbvfd30602dc,00:1c:06:97:b3:64,Up
+rbxb0645xbvfd30776cf,10.168.24.160,SINAMICS G120 CU240E-2,00:1c:06:97:b3:34,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rarmxb0010xbvfd3130473,00:1c:06:96:ca:18,Up
+rbxb0650xbvfd308e7e1,10.168.24.192,SINAMICS G120 CU240E-2,00:1c:06:97:1e:aa,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-012,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+rbxb0650xbvfd308e7e1,10.168.24.192,SINAMICS G120 CU240E-2,00:1c:06:97:1e:aa,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0655xbvfd309771f,00:1c:06:97:1f:43,Up
+rbxb0655xbvfd309771f,10.168.24.193,SINAMICS G120 CU240E-2,00:1c:06:97:1f:43,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0650xbvfd308e7e1,00:1c:06:97:1e:aa,Up
+rbxb0655xbvfd309771f,10.168.24.193,SINAMICS G120 CU240E-2,00:1c:06:97:1f:43,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,ptxb0035xbvfd3101937,00:1c:06:97:1f:9d,Up
+rbxb0660xbvfd3117ed0,10.168.24.195,SINAMICS G120 CU240E-2,00:1c:06:97:b3:6d,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-013,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+rbxb0660xbvfd3117ed0,10.168.24.195,SINAMICS G120 CU240E-2,00:1c:06:97:b3:6d,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0745xbvfd40149fa,10.168.24.176,SINAMICS G120 CU240E-2,00:1c:06:97:1f:52,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0525xbvfd108e9c1,00:1c:06:96:a2:78,Up
+rbxb0745xbvfd40149fa,10.168.24.176,SINAMICS G120 CU240E-2,00:1c:06:97:1f:52,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0750xbvfd402ddd4,00:1c:06:97:1f:d9,Up
+rbxb0750xbvfd402ddd4,10.168.24.177,SINAMICS G120 CU240E-2,00:1c:06:97:1f:d9,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0745xbvfd40149fa,00:1c:06:97:1f:52,Up
+rbxb0750xbvfd402ddd4,10.168.24.177,SINAMICS G120 CU240E-2,00:1c:06:97:1f:d9,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0755xbvfd4048f6b,10.168.24.179,SINAMICS G120 CU240E-2,00:1c:06:96:a2:7b,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,ptxb0020xbvfd403dca9,00:1c:06:96:6d:e7,Up
+rbxb0755xbvfd4048f6b,10.168.24.179,SINAMICS G120 CU240E-2,00:1c:06:96:a2:7b,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0770xbvfd40714b5,00:1c:06:97:2c:8a,Up
+rbxb0770xbvfd40714b5,10.168.24.180,SINAMICS G120 CU240E-2,00:1c:06:97:2c:8a,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0755xbvfd4048f6b,00:1c:06:96:a2:7b,Up
+rbxb0770xbvfd40714b5,10.168.24.180,SINAMICS G120 CU240E-2,00:1c:06:97:2c:8a,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0775xbvfd40840ca,10.168.24.181,SINAMICS G120 CU240E-2,00:1c:06:96:a1:52,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-008,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+rbxb0775xbvfd40840ca,10.168.24.181,SINAMICS G120 CU240E-2,00:1c:06:96:a1:52,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,ptxb0025xbvfd4098b16,00:1c:06:97:2b:8b,Up
+rbxb0780xbvfd41076c5,10.168.24.183,SINAMICS G120 CU240E-2,00:1c:06:97:2b:ca,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,ptxb0025xbvfd4098b16,00:1c:06:97:2b:8b,Up
+rbxb0780xbvfd41076c5,10.168.24.183,SINAMICS G120 CU240E-2,00:1c:06:97:2b:ca,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0845xbvfd3019c7b,10.168.24.140,SINAMICS G120 CU240E-2,00:1c:06:97:20:51,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-009,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+rbxb0845xbvfd3019c7b,10.168.24.140,SINAMICS G120 CU240E-2,00:1c:06:97:20:51,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0850xbvfd3020855,00:1c:06:97:0e:72,Up
+rbxb0850xbvfd3020855,10.168.24.141,SINAMICS G120 CU240E-2,00:1c:06:97:0e:72,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0845xbvfd3019c7b,00:1c:06:97:20:51,Up
+rbxb0850xbvfd3020855,10.168.24.141,SINAMICS G120 CU240E-2,00:1c:06:97:0e:72,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,ptxb0030xbvfd303d849,00:1c:06:96:6d:d8,Up
+rbxb0855xbvfd3045aea,10.168.24.143,SINAMICS G120 CU240E-2,00:1c:06:97:1e:e0,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-010,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+rbxb0855xbvfd3045aea,10.168.24.143,SINAMICS G120 CU240E-2,00:1c:06:97:1e:e0,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,fkxb0015xbvfd3052686,00:1c:06:97:2b:ac,Up
+rbxb0860xbvfd3070465,10.168.24.146,SINAMICS G120 CU240E-2,00:1c:06:96:1a:d7,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-011,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+rbxb0860xbvfd3070465,10.168.24.146,SINAMICS G120 CU240E-2,00:1c:06:96:1a:d7,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0865xbvfd308501a,00:1c:06:95:f7:db,Up
+rbxb0865xbvfd308501a,10.168.24.147,SINAMICS G120 CU240E-2,00:1c:06:95:f7:db,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0860xbvfd3070465,00:1c:06:96:1a:d7,Up
+rbxb0865xbvfd308501a,10.168.24.147,SINAMICS G120 CU240E-2,00:1c:06:95:f7:db,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rbxb0880xbvfd203f254,10.168.24.188,SINAMICS G120 CU240E-2,00:1c:06:97:2b:d0,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0010xbvfd1047f1f,00:1c:06:97:2b:94,Up
+rbxb0880xbvfd203f254,10.168.24.188,SINAMICS G120 CU240E-2,00:1c:06:97:2b:d0,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0885xbvfd204602a,00:1c:06:97:33:59,Up
+rbxb0885xbvfd204602a,10.168.24.189,SINAMICS G120 CU240E-2,00:1c:06:97:33:59,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-002,rbxb0880xbvfd203f254,00:1c:06:97:2b:d0,Up
+rbxb0885xbvfd204602a,10.168.24.189,SINAMICS G120 CU240E-2,00:1c:06:97:33:59,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",,,,Down
+rcp01xbim01f8be,10.168.24.43,ET200SP,ec:1c:5d:13:0b:b9,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-003,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+rcp01xbim01f8be,10.168.24.43,ET200SP,ec:1c:5d:13:0b:b9,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",,,,Down
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-001,,port-001,csb01xbsw012e1d,94:ae:e3:4b:4c:78,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-002,,port-001,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-003,,port-001,rcp01xbim01f8be,ec:1c:5d:13:0b:b9,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-004,,port-001,rbxb0025xbvfd1012310,00:1c:06:96:19:96,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-005,,port-001,fkxb0010xbvfd10476d9,00:1c:06:97:32:f6,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-006,,port-001,tcxb0005xbvfd2014b03,00:1c:06:97:4b:22,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-007,,port-001,rbxb0145xbvfd2060245,00:1c:06:97:34:04,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-008,,,,,Down
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-009,,port-001,rbxb0845xbvfd3019c7b,00:1c:06:97:20:51,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-010,,port-001,rbxb0855xbvfd3045aea,00:1c:06:97:1e:e0,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-011,,port-001,rbxb0860xbvfd3070465,00:1c:06:96:1a:d7,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-012,,port-001,hmi02xbim01853e,ec:1c:5d:13:26:7d,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-013,,port-001,hmi03xbim01452e,ec:1c:5d:13:25:90,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-014,,port-001,hmi09xbim014584,ec:1c:5d:13:18:6b,Up
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-015,,,,,Down
+rcp01xbsw012798,10.168.24.7,Hirschmann Railswitch,94:ae:e3:49:d8:86,Hirschmann Automation and Control GmbH,Ok,port-016,,,,,Down
+rcp02xbim01f88d,10.168.24.44,ET200SP,ec:1c:5d:13:0d:1d,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-003,rcp02xbsw0127ab,94:ae:e3:4b:3c:3c,Up
+rcp02xbim01f88d,10.168.24.44,ET200SP,ec:1c:5d:13:0d:1d,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",,,,Down
+rcp02xbsw0127ab,10.168.24.8,Hirschmann Railswitch,94:ae:e3:4b:3c:3c,Hirschmann Automation and Control GmbH,Ok,port-001,,port-002,csb04xbsw012e48,94:ae:e3:4b:4b:74,Up
+rcp02xbsw0127ab,10.168.24.8,Hirschmann Railswitch,94:ae:e3:4b:3c:3c,Hirschmann Automation and Control GmbH,Ok,port-002,,port-003,csb03xbsw01ee3e,94:ae:e3:4b:3c:a0,Up
+rcp02xbsw0127ab,10.168.24.8,Hirschmann Railswitch,94:ae:e3:4b:3c:3c,Hirschmann Automation and Control GmbH,Ok,port-003,,port-001,rcp02xbim01f88d,ec:1c:5d:13:0d:1d,Up
+rcp02xbsw0127ab,10.168.24.8,Hirschmann Railswitch,94:ae:e3:4b:3c:3c,Hirschmann Automation and Control GmbH,Ok,port-004,,port-002,op09xbim017e56,ec:1c:5d:14:8e:60,Up
+rcp02xbsw0127ab,10.168.24.8,Hirschmann Railswitch,94:ae:e3:4b:3c:3c,Hirschmann Automation and Control GmbH,Ok,port-005,,,,,Down
+rcp02xbsw0127ab,10.168.24.8,Hirschmann Railswitch,94:ae:e3:4b:3c:3c,Hirschmann Automation and Control GmbH,Ok,port-006,,,,,Down
+rcp02xbsw0127ab,10.168.24.8,Hirschmann Railswitch,94:ae:e3:4b:3c:3c,Hirschmann Automation and Control GmbH,Ok,port-007,,,,,Down
+rcp02xbsw0127ab,10.168.24.8,Hirschmann Railswitch,94:ae:e3:4b:3c:3c,Hirschmann Automation and Control GmbH,Ok,port-008,,,,,Down
+rcp03xbim01389d,10.168.24.45,ET200SP,ec:1c:5d:13:0d:92,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-003,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+rcp03xbim01389d,10.168.24.45,ET200SP,ec:1c:5d:13:0d:92,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",,,,Down
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-001,,port-010,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-002,,port-003,csb02xbsw012e2e,94:ae:e3:4b:3b:d8,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-003,,port-001,rcp03xbim01389d,ec:1c:5d:13:0d:92,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-004,,port-001,rbxb0605xbvfd204629f,00:1c:06:97:33:11,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-005,,port-001,tcxb0020xbvfd207d31d,00:1c:06:97:20:84,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-006,,port-001,stxb0005xbvfd302b607,00:1c:06:97:48:07,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-007,,port-001,larmxb0005xbvfd3052dfa,00:1c:06:97:b3:af,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-008,,port-001,rbxb0555xbvfd10135b0,00:1c:06:97:1f:df,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-009,,port-002,jb08xbim010e82,ec:1c:5d:13:27:6a,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-010,,port-001,hmi08xbim018594,ec:1c:5d:13:18:32,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-011,,port-002,op06xbim017ea9,ec:1c:5d:14:8e:53,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-012,,port-001,rbxb0650xbvfd308e7e1,00:1c:06:97:1e:aa,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-013,,port-001,rbxb0660xbvfd3117ed0,00:1c:06:97:b3:6d,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-014,,port-002,pbsxbtrim12xbcop01ef80,ac:64:17:f1:d7:3a,Up
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-015,,,,,Down
+rcp03xbsw01e7bb,10.168.24.9,Hirschmann Railswitch,94:ae:e3:49:da:86,Hirschmann Automation and Control GmbH,Ok,port-016,,,,,Down
+rcp04xbim01f8eb,10.168.24.46,ET200SP,ec:1c:5d:13:0d:26,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-003,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+rcp04xbim01f8eb,10.168.24.46,ET200SP,ec:1c:5d:13:0d:26,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",,,,Down
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-001,,port-001,rbxb0540xbvfd204a3ee,00:1c:06:97:34:76,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-002,,port-001,csb03xbsw01ee3e,94:ae:e3:4b:3c:a0,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-003,,port-001,rcp04xbim01f8eb,ec:1c:5d:13:0d:26,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-004,,,,,Down
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-005,,port-001,rbxb0510xbvfd10573cf,00:1c:06:95:f7:5d,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-006,,port-001,rbxb0525xbvfd108e9c1,00:1c:06:96:a2:78,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-007,,port-001,ptxb0020xbvfd403dca9,00:1c:06:96:6d:e7,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-008,,port-001,rbxb0775xbvfd40840ca,00:1c:06:96:a1:52,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-009,,port-001,tcxb0015xbvfd2018e52,00:1c:06:97:1d:b1,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-010,,port-001,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-011,,port-001,psxb0010xbvfd20713ff,00:1c:06:96:a1:94,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-012,,port-001,op07xbim01beb9,ec:1c:5d:14:8d:9d,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-013,,,,,Down
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-014,,port-001,ptxb0015xbvfd10143f7,00:1c:06:97:34:73,Up
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-015,,,,,Down
+rcp04xbsw0127cd,10.168.24.10,Hirschmann Railswitch,94:ae:e3:49:db:06,Hirschmann Automation and Control GmbH,Ok,port-016,,,,,Down
+rcp05xbcop01aa21,0.0.0.0,PNPN_IOC,ec:1c:5d:17:fe:22,SIEMENS AG,Unknown,port-001,由伙伴 (rcp05xbsw01e7dd) 报告,port-007,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Down
+rcp05xbim0138fb,10.168.24.47,ET200SP,ec:1c:5d:13:11:06,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1 R",port-003,rcp05xbsw01e7dd,94:ae:e3:49:d8:66,Up
+rcp05xbim0138fb,10.168.24.47,ET200SP,ec:1c:5d:13:11:06,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2 R",,,,Down
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-001,,port-002,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-002,,port-007,csb04xbsw012e48,94:ae:e3:4b:4b:74,Up
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-003,,port-001,rcp05xbim0138fb,ec:1c:5d:13:11:06,Up
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-004,,port-001,ebxb0005xbvfd10117fe,00:1c:06:97:49:d5,Up
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-005,,port-001,rbxb0010xbvfd1047f1f,00:1c:06:97:2b:94,Up
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-006,,port-001,ebxb0020xbvfd2054e91,00:1c:06:97:47:f8,Up
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-007,,port-001,rcp05xbcop01aa21,ec:1c:5d:17:fe:22,Up
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-008,,,,,Down
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-009,,port-001,jb01xbim010e1b,ec:1c:5d:13:12:83,Up
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-010,,port-002,pbsxbtlxx.xx2167b,ec:1c:5d:71:bc:f4,Up
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-011,,,,,Down
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-012,,,,,Down
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-013,,,,,Down
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-014,,,,,Down
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-015,,port-001,hmi10xbim0189dc,ec:1c:5d:13:26:38,Up
+rcp05xbsw01e7dd,10.168.24.11,Hirschmann Railswitch,94:ae:e3:49:d8:66,Hirschmann Automation and Control GmbH,Ok,port-016,,port-001,pbsxbbdc.xx21f66,ec:1c:5d:16:a7:bf,Up
+rcp06xbim0138c8,10.168.24.48,ET200SP,ec:1c:5d:c9:a7:97,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC S7, Ethernet Port, X1 P1",port-002,,38:4b:24:21:1c:30,Up
+rcp06xbim0138c8,10.168.24.48,ET200SP,ec:1c:5d:c9:a7:97,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC S7, Ethernet Port, X1 P2",,,,Down
+rfid01,10.168.24.105,Ident Systems,ec:1c:5d:1a:36:4b,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P1",port-002,hmi03xbhmi018be8,8c:f3:19:5a:16:80,Up
+rfid01,10.168.24.105,Ident Systems,ec:1c:5d:1a:36:4b,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P2",,,,Down
+rfid02,10.168.24.106,Ident Systems,ec:1c:5d:1a:36:42,SIEMENS AG,Ok,port-001,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P1",port-002,hmi04xbhmi016da9,8c:f3:19:5a:82:f9,Up
+rfid02,10.168.24.106,Ident Systems,ec:1c:5d:1a:36:42,SIEMENS AG,Ok,port-002,"Siemens, SIMATIC IDENT, Ethernet Port, X1 P2",,,,Down
+stxb0005xbvfd302b607,10.168.24.155,SINAMICS G120 CU250S-2 V,00:1c:06:97:48:07,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-006,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+stxb0005xbvfd302b607,10.168.24.155,SINAMICS G120 CU250S-2 V,00:1c:06:97:48:07,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,psxb0020xbvfd3031f5f,00:1c:06:97:1d:cc,Up
+tcxb0005xbvfd2014b03,10.168.24.134,SINAMICS G120 CU250S-2 V,00:1c:06:97:4b:22,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-006,rcp01xbsw012798,94:ae:e3:49:d8:86,Up
+tcxb0005xbvfd2014b03,10.168.24.134,SINAMICS G120 CU250S-2 V,00:1c:06:97:4b:22,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0040xbvfd2026d7f,00:1c:06:97:33:0b,Up
+tcxb0010xbvfd2108ead,10.168.24.120,SINAMICS G120 CU250S-2 V,00:1c:06:97:4a:32,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",,,,Down
+tcxb0010xbvfd2108ead,10.168.24.120,SINAMICS G120 CU250S-2 V,00:1c:06:97:4a:32,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-002,rbxb0445xbvfd209ca14,00:1c:06:97:20:a8,Up
+tcxb0015xbvfd2018e52,10.168.24.168,SINAMICS G120 CU240E-2,00:1c:06:97:1d:b1,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-009,rcp04xbsw0127cd,94:ae:e3:49:db:06,Up
+tcxb0015xbvfd2018e52,10.168.24.168,SINAMICS G120 CU240E-2,00:1c:06:97:1d:b1,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0530xbvfd2027bdf,00:1c:06:97:33:e6,Up
+tcxb0020xbvfd207d31d,10.168.24.152,SINAMICS G120 CU240E-2,00:1c:06:97:20:84,SIEMENS AG,Ok,port-001,"Siemens, SINAMICS, Ethernet Port, X150 P1R",port-005,rcp03xbsw01e7bb,94:ae:e3:49:da:86,Up
+tcxb0020xbvfd207d31d,10.168.24.152,SINAMICS G120 CU240E-2,00:1c:06:97:20:84,SIEMENS AG,Ok,port-002,"Siemens, SINAMICS, Ethernet Port, X150 P2R",port-001,rbxb0625xbvfd208ad3e,00:1c:06:97:1d:ea,Up

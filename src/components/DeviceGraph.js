@@ -62,17 +62,55 @@ const DeviceGraph = () => {
         }
     }, []);
 
+    const layout = {
+        type: 'force',
+        preventOverlap: true,
+        nodeSpacing: 20,
+        linkDistance: d => {
+            const source = graphData.nodes.find(n => n.id === d.source);
+            const target = graphData.nodes.find(n => n.id === d.target);
+            // 如果两端都是交换机，距离设为300
+            if (source?.data.portCount >= 3 && target?.data.portCount >= 3) {
+                return 300;
+            }
+            // 如果任意一端是交换机，距离设为150
+            if (source?.data.portCount >= 3 || target?.data.portCount >= 3) {
+                return 50;
+            }
+            // 普通节点之间的距离设为最小值50
+            return 20;
+        },
+        nodeStrength: d => {
+            // 交换机节点斥力为-800，普通节点为-200
+            return d.data.portCount >= 3 ? -800 : -100;
+        },
+        edgeStrength: edge => {
+            const source = graphData.nodes.find(n => n.id === edge.source);
+            const target = graphData.nodes.find(n => n.id === edge.target);
+            // 交换机之间的连接强度为1
+            if (source?.data.portCount >= 3 && target?.data.portCount >= 3) {
+                return 1;
+            }
+            // 如果任意一端是交换机，强度为0.5
+            if (source?.data.portCount >= 3 || target?.data.portCount >= 3) {
+                return 0.5;
+            }
+            // 普通节点之间的连接强度设为0.2
+            return 0.2;
+        },
+        gravity: 1,
+        alpha: 0.3,
+        alphaDecay: 0.01,
+        alphaMin: 0.001,
+        forceSimulation: null
+    }
+
     return (
         <div style={{ width: '100%', height: '100vh', background: '#fff', position: 'relative' }}>
             <Graphin 
                 ref={graphRef}
                 data={graphData}
-                layout={{
-                    type: 'force',
-                    preventOverlap: true,
-                    nodeStrength: -100,
-                    edgeStrength: 0.5
-                }}
+                layout={layout}
                 defaultNode={{
                     type: 'circle',
                     size: [30],

@@ -125,8 +125,8 @@ export const processCSVData = async (csvFile) => {
                     fill: 'rgba(82, 196, 26, 0.2)',
                     stroke: '#52c41a'
                 };
-            } else if (device.data.nameOfStation === 'fo020-fo050') {
-                // fo020-fo050 显示蓝色
+            } else if (device.data.type.includes('S7')) {
+                // S7设备显示蓝色
                 nodeStyle = {
                     fill: 'rgba(64, 169, 255, 0.2)',
                     stroke: '#40a9ff'
