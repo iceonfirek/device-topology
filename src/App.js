@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Layout, Input } from 'antd';
+import { Layout, Input, Button } from 'antd';
+import { ArrowLeftOutlined } from '@ant-design/icons';
 import DeviceGraph from './components/DeviceGraph';
 import FileSelector from './components/FileSelector';
 import './App.css';
@@ -10,6 +11,7 @@ const { Search } = Input;
 function App() {
   const [searchText, setSearchText] = useState('');
   const [selectedFile, setSelectedFile] = useState(null);
+  const [currentFolder, setCurrentFolder] = useState(null);
 
   const onSearch = (value) => {
     setSearchText(value);
@@ -17,6 +19,19 @@ function App() {
 
   const handleFileSelect = (filePath) => {
     setSelectedFile(filePath);
+  };
+
+  const handleFolderSelect = (folderName) => {
+    setCurrentFolder(folderName);
+  };
+
+  const handleBack = () => {
+    if (selectedFile) {
+      setSelectedFile(null);
+      setSearchText('');
+    } else if (currentFolder) {
+      setCurrentFolder(null);
+    }
   };
 
   return (
@@ -30,7 +45,17 @@ function App() {
         justifyContent: 'space-between',
         padding: '0 20px'
       }}>
-        <span>设备拓扑图</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+          {(selectedFile || currentFolder) && (
+            <Button 
+              type="text" 
+              icon={<ArrowLeftOutlined />} 
+              onClick={handleBack}
+              style={{ color: 'white' }}
+            />
+          )}
+          <span>设备拓扑图</span>
+        </div>
         {selectedFile && (
           <Search
             placeholder="搜索设备名称/IP/MAC"
@@ -46,10 +71,14 @@ function App() {
         background: '#f0f2f5',
         height: 'calc(100vh - 64px)'
       }}>
-        {!selectedFile ? (
-          <FileSelector onFileSelect={handleFileSelect} />
-        ) : (
+        {selectedFile ? (
           <DeviceGraph searchText={searchText} selectedFile={selectedFile} />
+        ) : (
+          <FileSelector 
+            onFileSelect={handleFileSelect}
+            onFolderSelect={handleFolderSelect}
+            currentFolder={currentFolder}
+          />
         )}
       </Content>
     </Layout>

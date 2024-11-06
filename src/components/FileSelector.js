@@ -1,67 +1,56 @@
-import React, { useState, useEffect } from 'react';
-import { Tree, Card } from 'antd';
+import React from 'react';
+import { Card, List } from 'antd';
 import { FolderOutlined, FileOutlined } from '@ant-design/icons';
 import { getAvailableFiles } from '../data/deviceData';
 
-const FileSelector = ({ onFileSelect }) => {
-  const [treeData, setTreeData] = useState([]);
+const FileSelector = ({ onFileSelect, onFolderSelect, currentFolder }) => {
+  const rootFolders = ['冲压', '总装', '涂装', '车身'];
+  const files = getAvailableFiles();
 
-  useEffect(() => {
-    const files = getAvailableFiles();
-    const fileTree = {};
-    
-    // 构建文件树结构
-    files.forEach(({ path }) => {
-      const parts = path.split('/');
-      let current = fileTree;
-      
-      parts.forEach((part, index) => {
-        if (index === parts.length - 1) {
-          current[part] = null;
-        } else {
-          current[part] = current[part] || {};
-          current = current[part];
-        }
-      });
-    });
+  // 如果在文件夹中，显示该文件夹下的文件列表
+  if (currentFolder) {
+    const folderFiles = files.filter(({ path }) => 
+      path.startsWith(`./${currentFolder}/`)
+    );
 
-    // 转换为 antd Tree 需要的格式
-    const convertToTreeData = (obj, parentKey = '') => {
-      return Object.entries(obj).map(([key, value]) => {
-        const currentKey = parentKey ? `${parentKey}/${key}` : key;
-        if (value === null) {
-          return {
-            title: key,
-            key: currentKey,
-            icon: <FileOutlined />,
-            isLeaf: true
-          };
-        }
-        return {
-          title: key,
-          key: currentKey,
-          icon: <FolderOutlined />,
-          children: convertToTreeData(value, currentKey)
-        };
-      });
-    };
+    return (
+      <Card title={`${currentFolder}文件列表`} style={{ width: '100%', maxWidth: 800, margin: '20px auto' }}>
+        <List
+          itemLayout="horizontal"
+          dataSource={folderFiles}
+          renderItem={file => (
+            <List.Item
+              onClick={() => onFileSelect(file.path)}
+              style={{ cursor: 'pointer' }}
+            >
+              <List.Item.Meta
+                avatar={<FileOutlined />}
+                title={file.path.split('/').pop()}
+              />
+            </List.Item>
+          )}
+        />
+      </Card>
+    );
+  }
 
-    setTreeData(convertToTreeData(fileTree));
-  }, []);
-
-  const onSelect = (selectedKeys, info) => {
-    if (info.node.isLeaf) {
-      onFileSelect(info.node.key);
-    }
-  };
-
+  // 显示根文件夹列表
   return (
-    <Card title="选择设备拓扑文件" style={{ width: '100%', maxWidth: 800, margin: '20px auto' }}>
-      <Tree
-        showIcon
-        defaultExpandAll
-        onSelect={onSelect}
-        treeData={treeData}
+    <Card title="选择设备拓扑文件夹" style={{ width: '100%', maxWidth: 800, margin: '20px auto' }}>
+      <List
+        itemLayout="horizontal"
+        dataSource={rootFolders}
+        renderItem={folder => (
+          <List.Item
+            onClick={() => onFolderSelect(folder)}
+            style={{ cursor: 'pointer' }}
+          >
+            <List.Item.Meta
+              avatar={<FolderOutlined />}
+              title={folder}
+            />
+          </List.Item>
+        )}
       />
     </Card>
   );
