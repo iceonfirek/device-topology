@@ -13,9 +13,6 @@ const DeviceGraph = ({ searchText, selectedFile }) => {
     const graphRef = React.useRef(null);
     const [isStatic, setIsStatic] = useState(false);
 
-    // 获取文件名（不含后缀）
-    const fileName = selectedFile ? selectedFile.split('/').pop().replace('.csv', '') : '';
-
     useEffect(() => {
         const loadData = async () => {
             try {
@@ -179,20 +176,7 @@ const DeviceGraph = ({ searchText, selectedFile }) => {
     }
 
     return (
-        <div style={{ width: '100%', height: '100vh', background: '#fff', position: 'relative' }}>
-            <div style={{ 
-                position: 'absolute', 
-                top: '10px', 
-                left: '20px', 
-                zIndex: 1,
-                background: 'rgba(255, 255, 255, 0.9)',
-                padding: '8px 16px',
-                borderRadius: '4px',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
-            }}>
-                <h3 style={{ margin: 0 }}>{fileName}</h3>
-            </div>
-
+        <div style={{ height: '100%', position: 'relative' }}>
             <Graphin 
                 ref={graphRef}
                 data={filteredData}

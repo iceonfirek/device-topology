@@ -14,7 +14,7 @@ const FileSelector = ({ onFileSelect, onFolderSelect, currentFolder }) => {
     );
 
     return (
-      <Card title={`${currentFolder}文件列表`} style={{ width: '100%', maxWidth: 800, margin: '20px auto' }}>
+      <Card title="线体" style={{ width: '100%', maxWidth: 800, margin: '20px auto' }}>
         <List
           itemLayout="horizontal"
           dataSource={folderFiles}
@@ -25,7 +25,7 @@ const FileSelector = ({ onFileSelect, onFolderSelect, currentFolder }) => {
             >
               <List.Item.Meta
                 avatar={<FileOutlined />}
-                title={file.path.split('/').pop()}
+                title={file.path.split('/').pop().replace('.csv', '')}
               />
             </List.Item>
           )}
@@ -36,7 +36,7 @@ const FileSelector = ({ onFileSelect, onFolderSelect, currentFolder }) => {
 
   // 显示根文件夹列表
   return (
-    <Card title="选择设备拓扑文件夹" style={{ width: '100%', maxWidth: 800, margin: '20px auto' }}>
+    <Card title="车间" style={{ width: '100%', maxWidth: 800, margin: '20px auto' }}>
       <List
         itemLayout="horizontal"
         dataSource={rootFolders}

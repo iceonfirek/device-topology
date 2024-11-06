@@ -34,6 +34,18 @@ function App() {
     }
   };
 
+  // 获取显示的标题
+  const getTitle = () => {
+    if (selectedFile) {
+      // 显示文件名（不含后缀）
+      return selectedFile.split('/').pop().replace('.csv', '');
+    } else if (currentFolder) {
+      // 显示文件夹名
+      return currentFolder;
+    }
+    return 'F2-OT设备';
+  };
+
   return (
     <Layout style={{ minHeight: '100vh' }}>
       <Header style={{ 
@@ -54,7 +66,7 @@ function App() {
               style={{ color: 'white' }}
             />
           )}
-          <span>设备拓扑图</span>
+          <span>{getTitle()}</span>
         </div>
         {selectedFile && (
           <Search
