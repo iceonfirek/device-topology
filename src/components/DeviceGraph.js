@@ -1,32 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Graphin from '@antv/graphin';
 import { Card, Modal, Badge } from 'antd';
 import { processCSVData } from '../utils/dataProcessor';
-import { csvData } from '../data/deviceData';
+import { loadCsvFile } from '../data/deviceData';
 
-const DeviceGraph = ({ searchText }) => {
-    const [graphData, setGraphData] = React.useState({ nodes: [], edges: [] });
-    const [filteredData, setFilteredData] = React.useState({ nodes: [], edges: [] });
-    const [selectedDevice, setSelectedDevice] = React.useState(null);
-    const [modalVisible, setModalVisible] = React.useState(false);
-    const [tooltipInfo, setTooltipInfo] = React.useState(null);
+const DeviceGraph = ({ searchText, selectedFile }) => {
+    const [graphData, setGraphData] = useState({ nodes: [], edges: [] });
+    const [filteredData, setFilteredData] = useState({ nodes: [], edges: [] });
+    const [selectedDevice, setSelectedDevice] = useState(null);
+    const [modalVisible, setModalVisible] = useState(false);
+    const [tooltipInfo, setTooltipInfo] = useState(null);
     const graphRef = React.useRef(null);
-    const [isStatic, setIsStatic] = React.useState(false);
+    const [isStatic, setIsStatic] = useState(false);
 
-    React.useEffect(() => {
+    useEffect(() => {
         const loadData = async () => {
             try {
+                if (!selectedFile) return;
+                const csvData = await loadCsvFile(selectedFile);
                 const data = await processCSVData(csvData);
-                console.log('Processed data:', data);
                 setGraphData(data);
             } catch (error) {
                 console.error('加载数据失败:', error);
             }
         };
         loadData();
-    }, []);
+    }, [selectedFile]);
 
-    React.useEffect(() => {
+    useEffect(() => {
         const timer = setTimeout(() => {
             if (graphRef.current?.graph) {
                 // 10秒后切换到静态布局
@@ -37,7 +38,7 @@ const DeviceGraph = ({ searchText }) => {
         return () => clearTimeout(timer);
     }, []);
 
-    React.useEffect(() => {
+    useEffect(() => {
         if (graphRef.current) {
             const graph = graphRef.current.graph;
             
@@ -76,7 +77,7 @@ const DeviceGraph = ({ searchText }) => {
     }, []);
 
     // 添加搜索效果
-    React.useEffect(() => {
+    useEffect(() => {
         if (!graphData.nodes.length) return;
         
         if (!searchText) {
