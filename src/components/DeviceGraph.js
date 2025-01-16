@@ -33,7 +33,7 @@ const DeviceGraph = ({ searchText, selectedFile }) => {
                 // 10秒后切换到静态布局
                 setIsStatic(true);
             }
-        }, 10000);
+        }, 500);
 
         return () => clearTimeout(timer);
     }, []);
